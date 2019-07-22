@@ -22,10 +22,7 @@ namespace AddTwoNumbers
             ListNode head = null, tail = null;
             while (l1 != null && l2 != null)
             {
-                int currentSum = l1.val + l2.val + carry;
-                int currentValue = currentSum % 10;
-                carry = currentSum / 10;
-                var newNode = new ListNode(currentValue);
+                ListNode newNode = Sum(l1, l2, ref carry);
                 if (head == null)
                 {
                     head = newNode;
@@ -40,32 +37,34 @@ namespace AddTwoNumbers
                 l2 = l2.next;
             }
 
-            while (l1 != null)
-            {
-                int currentSum = l1.val + carry;
-                int currentValue = currentSum % 10;
-                carry = currentSum / 10;
-                var newNode = new ListNode(currentValue);
-                tail.next = newNode;
-                tail = tail.next;
-                l1 = l1.next;
-            }
+            SumList(l1, ref tail, ref carry);
+            SumList(l2, ref tail, ref carry);
 
-            while (l2 != null)
-            {
-                int currentSum = l2.val + carry;
-                int currentValue = currentSum % 10;
-                carry = currentSum / 10;
-                var newNode = new ListNode(currentValue);
-                tail.next = newNode;
-                tail = tail.next;
-                l2 = l2.next;
-            }
-
-            if (carry!=0)
+            if (carry != 0)
                 tail.next = new ListNode(carry);
 
             return head;
+        }
+
+        private static void SumList(ListNode l, ref ListNode tail, ref int carry)
+        {
+            while (l != null)
+            {
+                var newNode = Sum(l, null, ref carry);
+                tail.next = newNode;
+                tail = tail.next;
+                l = l.next;
+            }
+        }
+
+        private static ListNode Sum(ListNode l1, ListNode l2, ref int carry)
+        {
+            var val1 = l1 != null ? l1.val : 0;
+            var val2 = l2 != null ? l2.val : 0;
+            int currentSum = val1 + val2 + carry;
+            int currentValue = currentSum % 10;
+            carry = currentSum / 10;
+            return new ListNode(currentValue);
         }
     }
 }
