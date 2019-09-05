@@ -1,28 +1,36 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace BestTimeToBuyAndSellStock {
   class Program {
+    int[] map;
     public int MaxProfit(int[] prices) {
-      return MaxProfit(prices, 0, 0);
+      //Debugger.Launch();
+      map = new int[prices.Length];
+      return MaxProfit(prices, 0);
     }
 
-    private int MaxProfit(int[] prices, int pos, int profit) {
+    private int MaxProfit(int[] prices, int pos) {
       if (pos == prices.Length) {
-        return profit;
+        return 0;
       }
 
-      int max = 0;
+      if (map[pos] > 0) {
+        return map[pos];
+      }
+
+      int max = MaxProfit(prices, pos + 1);
       for (int i = pos + 1; i < prices.Length; ++i) {
         if (prices[pos] < prices[i]) {
-          max = Math.Max(max, MaxProfit(prices, i + 1, profit + prices[i] - prices[pos]));
+          max = Math.Max(max, prices[i] - prices[pos] + MaxProfit(prices, i + 1));
         }
       }
 
-      return Math.Max(max, MaxProfit(prices, pos + 1, profit));
+      return map[pos] = max;
     }
 
     static void Main(string[] args) {
