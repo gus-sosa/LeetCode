@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Utility;
 
 namespace TwoSum
@@ -10,21 +7,18 @@ namespace TwoSum
   class Program
   {
     public int[] TwoSum(int[] nums, int target) {
-      int[] pos = Enumerable.Range(0, nums.Length).ToArray();
-      Array.Sort(nums, pos);
-      int s = 0, e = nums.Length - 1;
-      while (s < e) {
-        if (nums[s] + nums[e] == target) {
-          break;
-        }
-
-        if (nums[s] + nums[e] < target) {
-          ++s;
-        } else {
-          --e;
+      var hash = new Dictionary<int, int>();
+      for (int i = 0; i < nums.Length; i++) {
+        if (hash.ContainsKey(target - nums[i])) {
+          var pos = hash[target - nums[i]];
+          if (pos != i) {
+            return new int[] { Math.Min(i, pos), Math.Max(i, pos) };
+          }
+        } else if (!hash.ContainsKey(nums[i])) {
+          hash.Add(nums[i], i);
         }
       }
-      return new int[] { pos[s], pos[e] };
+      return new int[0];
     }
 
     static void Main(string[] args) {
