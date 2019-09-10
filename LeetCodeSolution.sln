@@ -23,7 +23,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RotateArray", "InterviewQue
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContainsDuplicate", "InterviewQuestions\Array\ContainsDuplicate\ContainsDuplicate.csproj", "{0D2C4571-A5DF-4450-A190-46C2E27CA7B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleNumber", "SingleNumber\SingleNumber.csproj", "{78E3DB97-C71C-4900-95F6-B6FFDA5D66DA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleNumber", "InterviewQuestions\Array\SingleNumber\SingleNumber.csproj", "{78E3DB97-C71C-4900-95F6-B6FFDA5D66DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
