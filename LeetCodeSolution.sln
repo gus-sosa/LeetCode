@@ -17,9 +17,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Concurrency", "Concurrency"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintInOrder", "Concurrency\PrintInOrder\PrintInOrder.csproj", "{C50A7383-E4A0-4BDE-A596-5B9C91DEF0A7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RotateArray", "RotateArray\RotateArray.csproj", "{83B0E553-6160-4C5C-B6D3-2202C1765B28}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RotateArray", "InterviewQuestions\Array\RotateArray\RotateArray.csproj", "{83B0E553-6160-4C5C-B6D3-2202C1765B28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContainsDuplicate", "ContainsDuplicate\ContainsDuplicate.csproj", "{0D2C4571-A5DF-4450-A190-46C2E27CA7B8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContainsDuplicate", "InterviewQuestions\Array\ContainsDuplicate\ContainsDuplicate.csproj", "{0D2C4571-A5DF-4450-A190-46C2E27CA7B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
