@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntersectionOfTwoArrays2", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlusOne", "InterviewQuestions\Array\PlusOne\PlusOne.csproj", "{9011CA20-0AB6-492F-BAEF-4862B641884F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoveZeros", "InterviewQuestions\Array\MoveZeros\MoveZeros.csproj", "{6F5B0F0B-10AF-4870-9913-ACB3286931D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{9011CA20-0AB6-492F-BAEF-4862B641884F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9011CA20-0AB6-492F-BAEF-4862B641884F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9011CA20-0AB6-492F-BAEF-4862B641884F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F5B0F0B-10AF-4870-9913-ACB3286931D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F5B0F0B-10AF-4870-9913-ACB3286931D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F5B0F0B-10AF-4870-9913-ACB3286931D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F5B0F0B-10AF-4870-9913-ACB3286931D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -89,6 +95,7 @@ Global
 		{78E3DB97-C71C-4900-95F6-B6FFDA5D66DA} = {93E185D0-7DA1-4BFC-B9AC-CBE177AC570D}
 		{1391D26B-ACE4-412B-AD8E-894C461263ED} = {93E185D0-7DA1-4BFC-B9AC-CBE177AC570D}
 		{9011CA20-0AB6-492F-BAEF-4862B641884F} = {93E185D0-7DA1-4BFC-B9AC-CBE177AC570D}
+		{6F5B0F0B-10AF-4870-9913-ACB3286931D9} = {93E185D0-7DA1-4BFC-B9AC-CBE177AC570D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0A96E17D-AA6B-453C-BDE6-A74EEF471CE0}
