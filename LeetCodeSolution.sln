@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContainsDuplicate", "Interv
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleNumber", "InterviewQuestions\Array\SingleNumber\SingleNumber.csproj", "{78E3DB97-C71C-4900-95F6-B6FFDA5D66DA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntersectionOfTwoArrays2", "InterviewQuestions\Array\IntersectionOfTwoArrays2\IntersectionOfTwoArrays2.csproj", "{1391D26B-ACE4-412B-AD8E-894C461263ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{78E3DB97-C71C-4900-95F6-B6FFDA5D66DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78E3DB97-C71C-4900-95F6-B6FFDA5D66DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78E3DB97-C71C-4900-95F6-B6FFDA5D66DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1391D26B-ACE4-412B-AD8E-894C461263ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1391D26B-ACE4-412B-AD8E-894C461263ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1391D26B-ACE4-412B-AD8E-894C461263ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1391D26B-ACE4-412B-AD8E-894C461263ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -75,6 +81,7 @@ Global
 		{83B0E553-6160-4C5C-B6D3-2202C1765B28} = {93E185D0-7DA1-4BFC-B9AC-CBE177AC570D}
 		{0D2C4571-A5DF-4450-A190-46C2E27CA7B8} = {93E185D0-7DA1-4BFC-B9AC-CBE177AC570D}
 		{78E3DB97-C71C-4900-95F6-B6FFDA5D66DA} = {93E185D0-7DA1-4BFC-B9AC-CBE177AC570D}
+		{1391D26B-ACE4-412B-AD8E-894C461263ED} = {93E185D0-7DA1-4BFC-B9AC-CBE177AC570D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0A96E17D-AA6B-453C-BDE6-A74EEF471CE0}
