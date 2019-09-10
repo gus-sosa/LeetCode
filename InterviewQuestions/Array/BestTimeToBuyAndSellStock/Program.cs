@@ -1,36 +1,26 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace BestTimeToBuyAndSellStock {
-  class Program {
-    int[] map;
+namespace BestTimeToBuyAndSellStock
+{
+  class Program
+  {
     public int MaxProfit(int[] prices) {
-      //Debugger.Launch();
-      map = new int[prices.Length];
-      return MaxProfit(prices, 0);
-    }
-
-    private int MaxProfit(int[] prices, int pos) {
-      if (pos == prices.Length) {
+      if (prices.Length < 2) {
         return 0;
       }
 
-      if (map[pos] > 0) {
-        return map[pos];
-      }
-
-      int max = MaxProfit(prices, pos + 1);
-      for (int i = pos + 1; i < prices.Length; ++i) {
-        if (prices[pos] < prices[i]) {
-          max = Math.Max(max, prices[i] - prices[pos] + MaxProfit(prices, i + 1));
+      //Debugger.Launch();
+      int initSequence = prices[0], profit = 0;
+      for (int i = 1; i < prices.Length; i++) {
+        if (prices[i] < prices[i - 1]) {
+          profit += prices[i - 1] - initSequence;
+          initSequence = prices[i];
         }
       }
+      profit += prices[prices.Length - 1] - initSequence;
 
-      return map[pos] = max;
+      return profit;
     }
 
     static void Main(string[] args) {
