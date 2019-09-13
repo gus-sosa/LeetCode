@@ -39,6 +39,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Utility", "Utility\Utility.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidSudoku", "InterviewQuestions\Array\ValidSudoku\ValidSudoku.csproj", "{7B2AD54E-7219-4729-A80B-6DEB51EA005C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RotateImage", "InterviewQuestions\Array\RotateImage\RotateImage.csproj", "{CA64E363-BA41-44C7-A40B-A37C9979346A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -101,6 +103,10 @@ Global
 		{7B2AD54E-7219-4729-A80B-6DEB51EA005C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B2AD54E-7219-4729-A80B-6DEB51EA005C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B2AD54E-7219-4729-A80B-6DEB51EA005C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA64E363-BA41-44C7-A40B-A37C9979346A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA64E363-BA41-44C7-A40B-A37C9979346A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA64E363-BA41-44C7-A40B-A37C9979346A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA64E363-BA41-44C7-A40B-A37C9979346A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -119,6 +125,7 @@ Global
 		{E7AFB526-3EF5-4B32-A9C0-93EFF79E2EC6} = {93E185D0-7DA1-4BFC-B9AC-CBE177AC570D}
 		{4D843923-7791-47CA-BF37-4E11EFC4A73D} = {46A712A1-9B16-4D6D-9135-A9D708C9CA69}
 		{7B2AD54E-7219-4729-A80B-6DEB51EA005C} = {93E185D0-7DA1-4BFC-B9AC-CBE177AC570D}
+		{CA64E363-BA41-44C7-A40B-A37C9979346A} = {93E185D0-7DA1-4BFC-B9AC-CBE177AC570D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0A96E17D-AA6B-453C-BDE6-A74EEF471CE0}
