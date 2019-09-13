@@ -35,7 +35,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoSum", "InterviewQuestion
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "!Utilities", "!Utilities", "{46A712A1-9B16-4D6D-9135-A9D708C9CA69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utility", "Utility\Utility.csproj", "{4D843923-7791-47CA-BF37-4E11EFC4A73D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Utility", "Utility\Utility.csproj", "{4D843923-7791-47CA-BF37-4E11EFC4A73D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidSudoku", "InterviewQuestions\Array\ValidSudoku\ValidSudoku.csproj", "{7B2AD54E-7219-4729-A80B-6DEB51EA005C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -95,6 +97,10 @@ Global
 		{4D843923-7791-47CA-BF37-4E11EFC4A73D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D843923-7791-47CA-BF37-4E11EFC4A73D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D843923-7791-47CA-BF37-4E11EFC4A73D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B2AD54E-7219-4729-A80B-6DEB51EA005C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B2AD54E-7219-4729-A80B-6DEB51EA005C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B2AD54E-7219-4729-A80B-6DEB51EA005C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B2AD54E-7219-4729-A80B-6DEB51EA005C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -112,6 +118,7 @@ Global
 		{6F5B0F0B-10AF-4870-9913-ACB3286931D9} = {93E185D0-7DA1-4BFC-B9AC-CBE177AC570D}
 		{E7AFB526-3EF5-4B32-A9C0-93EFF79E2EC6} = {93E185D0-7DA1-4BFC-B9AC-CBE177AC570D}
 		{4D843923-7791-47CA-BF37-4E11EFC4A73D} = {46A712A1-9B16-4D6D-9135-A9D708C9CA69}
+		{7B2AD54E-7219-4729-A80B-6DEB51EA005C} = {93E185D0-7DA1-4BFC-B9AC-CBE177AC570D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0A96E17D-AA6B-453C-BDE6-A74EEF471CE0}
