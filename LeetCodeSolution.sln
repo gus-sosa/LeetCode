@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RotateImage", "InterviewQue
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LowestCommonAncestor", "LowestCommonAncestor\LowestCommonAncestor.csproj", "{EBA82F85-D93E-43E9-BC26-B95ABBA6EF69}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordSearch2", "WordSearch2\WordSearch2.csproj", "{8F00BE11-288C-4267-AEE7-2D4AAD2A1C38}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -113,6 +115,10 @@ Global
 		{EBA82F85-D93E-43E9-BC26-B95ABBA6EF69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBA82F85-D93E-43E9-BC26-B95ABBA6EF69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBA82F85-D93E-43E9-BC26-B95ABBA6EF69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F00BE11-288C-4267-AEE7-2D4AAD2A1C38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F00BE11-288C-4267-AEE7-2D4AAD2A1C38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F00BE11-288C-4267-AEE7-2D4AAD2A1C38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F00BE11-288C-4267-AEE7-2D4AAD2A1C38}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

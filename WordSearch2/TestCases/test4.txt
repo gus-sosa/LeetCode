@@ -1,0 +1,8 @@
+5
+b b a a b a
+b b a b a a
+b b b b b b
+a a a b a a
+a b a a b b
+abbbababaa
+abbbababaa
