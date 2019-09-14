@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidSudoku", "InterviewQue
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RotateImage", "InterviewQuestions\Array\RotateImage\RotateImage.csproj", "{CA64E363-BA41-44C7-A40B-A37C9979346A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LowestCommonAncestor", "LowestCommonAncestor\LowestCommonAncestor.csproj", "{EBA82F85-D93E-43E9-BC26-B95ABBA6EF69}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -107,6 +109,10 @@ Global
 		{CA64E363-BA41-44C7-A40B-A37C9979346A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA64E363-BA41-44C7-A40B-A37C9979346A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA64E363-BA41-44C7-A40B-A37C9979346A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBA82F85-D93E-43E9-BC26-B95ABBA6EF69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBA82F85-D93E-43E9-BC26-B95ABBA6EF69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBA82F85-D93E-43E9-BC26-B95ABBA6EF69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBA82F85-D93E-43E9-BC26-B95ABBA6EF69}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
