@@ -71,7 +71,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeleteNodeInLinkedList", "I
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoveNthNodeFromEndOfList", "InterviewQuestions\LinkedList\RemoveNthNodeFromEndOfList\RemoveNthNodeFromEndOfList\RemoveNthNodeFromEndOfList.csproj", "{1496AC25-8384-4AF2-B6B9-E4B8D2F14C87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "InterviewQuestions\LinkedList\RerverseLinkedList\ConsoleApp1\ConsoleApp1.csproj", "{D20B1CF5-3440-4CF8-8596-5E2F418A1A0A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseLinkedList", "InterviewQuestions\LinkedList\RerverseLinkedList\ConsoleApp1\ReverseLinkedList.csproj", "{D20B1CF5-3440-4CF8-8596-5E2F418A1A0A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
