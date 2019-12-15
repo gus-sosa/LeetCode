@@ -16,24 +16,14 @@ namespace SymmetricTree {
       if (root == null) {
         return true;
       }
-      var left = new Queue<TreeNode>();
-      var right = new Queue<TreeNode>();
-      left.Enqueue(root.left);
-      right.Enqueue(root.right);
-      while (left.Count > 0 && right.Count > 0) {
-        var currentLeft = left.Dequeue();
-        var currentRight = right.Dequeue();
-        if (currentLeft?.val != currentRight?.val) {
-          return false;
-        }
-        if (currentLeft != null && currentRight != null) {
-          left.Enqueue(currentLeft.left);
-          right.Enqueue(currentRight.right);
-          left.Enqueue(currentLeft.right);
-          right.Enqueue(currentRight.left);
-        }
+      return IsSymmetric(root.left, root.right);
+    }
+
+    private bool IsSymmetric(TreeNode left, TreeNode right) {
+      if (left?.val != right?.val) {
+        return false;
       }
-      return left.Count == 0 && right.Count == 0;
+      return (left == null && right == null) || (IsSymmetric(left.left, right.right) && IsSymmetric(left.right, right.left));
     }
 
     static void Main(string[] args) {
