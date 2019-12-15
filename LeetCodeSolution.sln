@@ -85,6 +85,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaximumDepthOfBinaryTree", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidateBinarySearchTree", "InterviewQuestions\Trees\ValidateBinarySearchTree\ValidateBinarySearchTree.csproj", "{4E75A4AE-56B7-49DB-802B-C96E645290BA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SymmetricTree", "InterviewQuestions\Trees\SymmetricTree\SymmetricTree.csproj", "{903E85C6-23B7-4425-8466-EA5B8D599B8E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -227,6 +229,10 @@ Global
 		{4E75A4AE-56B7-49DB-802B-C96E645290BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E75A4AE-56B7-49DB-802B-C96E645290BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E75A4AE-56B7-49DB-802B-C96E645290BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{903E85C6-23B7-4425-8466-EA5B8D599B8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{903E85C6-23B7-4425-8466-EA5B8D599B8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{903E85C6-23B7-4425-8466-EA5B8D599B8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{903E85C6-23B7-4425-8466-EA5B8D599B8E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -266,6 +272,7 @@ Global
 		{EA06334F-7A9F-411D-8AA0-CF3268CD14E8} = {9BDA00AB-E18D-4382-A944-EA714E7A30B6}
 		{F895956E-C380-4F00-99D7-FC3D12CC0B03} = {EA06334F-7A9F-411D-8AA0-CF3268CD14E8}
 		{4E75A4AE-56B7-49DB-802B-C96E645290BA} = {EA06334F-7A9F-411D-8AA0-CF3268CD14E8}
+		{903E85C6-23B7-4425-8466-EA5B8D599B8E} = {EA06334F-7A9F-411D-8AA0-CF3268CD14E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0A96E17D-AA6B-453C-BDE6-A74EEF471CE0}
