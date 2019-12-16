@@ -99,7 +99,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstBadVersion", "Intervie
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DynamicProgramming", "DynamicProgramming", "{18831E01-D1BE-4B7E-9DDB-977C21EB310C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClimbingStairs", "InterviewQuestions\DynamicProgramming\ClimbingStairs\ClimbingStairs.csproj", "{F61513D2-6656-4AB0-9B58-2681A552A5B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClimbingStairs", "InterviewQuestions\DynamicProgramming\ClimbingStairs\ClimbingStairs.csproj", "{F61513D2-6656-4AB0-9B58-2681A552A5B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestTimeToBuyAndSellStock", "InterviewQuestions\DynamicProgramming\BestTimeToBuyAndSellStock\BestTimeToBuyAndSellStock.csproj", "{50A827B7-F98D-484B-A84F-12692B2EF550}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -267,6 +269,10 @@ Global
 		{F61513D2-6656-4AB0-9B58-2681A552A5B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F61513D2-6656-4AB0-9B58-2681A552A5B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F61513D2-6656-4AB0-9B58-2681A552A5B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50A827B7-F98D-484B-A84F-12692B2EF550}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50A827B7-F98D-484B-A84F-12692B2EF550}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50A827B7-F98D-484B-A84F-12692B2EF550}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50A827B7-F98D-484B-A84F-12692B2EF550}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -314,6 +320,7 @@ Global
 		{377B9A04-B854-4F28-89FB-CD8AE8617D8B} = {2B87C11B-BFB0-4382-8AD5-035BC8F86D49}
 		{18831E01-D1BE-4B7E-9DDB-977C21EB310C} = {9BDA00AB-E18D-4382-A944-EA714E7A30B6}
 		{F61513D2-6656-4AB0-9B58-2681A552A5B1} = {18831E01-D1BE-4B7E-9DDB-977C21EB310C}
+		{50A827B7-F98D-484B-A84F-12692B2EF550} = {18831E01-D1BE-4B7E-9DDB-977C21EB310C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0A96E17D-AA6B-453C-BDE6-A74EEF471CE0}
