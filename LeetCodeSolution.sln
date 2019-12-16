@@ -89,6 +89,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SymmetricTree", "InterviewQ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTreeLevelOrderTraversal", "InterviewQuestions\Trees\BinaryTreeLevelOrderTraversal\BinaryTreeLevelOrderTraversal.csproj", "{574573A9-A17C-4D7C-873C-8686806AA249}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertSortedArrayBinarySearchTree", "InterviewQuestions\Trees\ConvertSortedArrayBinarySearchTree\ConvertSortedArrayBinarySearchTree.csproj", "{5F3D9EDF-6310-49CE-8AC3-0B4A683A5F5D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -239,6 +241,10 @@ Global
 		{574573A9-A17C-4D7C-873C-8686806AA249}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{574573A9-A17C-4D7C-873C-8686806AA249}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{574573A9-A17C-4D7C-873C-8686806AA249}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F3D9EDF-6310-49CE-8AC3-0B4A683A5F5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F3D9EDF-6310-49CE-8AC3-0B4A683A5F5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F3D9EDF-6310-49CE-8AC3-0B4A683A5F5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F3D9EDF-6310-49CE-8AC3-0B4A683A5F5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -280,6 +286,7 @@ Global
 		{4E75A4AE-56B7-49DB-802B-C96E645290BA} = {EA06334F-7A9F-411D-8AA0-CF3268CD14E8}
 		{903E85C6-23B7-4425-8466-EA5B8D599B8E} = {EA06334F-7A9F-411D-8AA0-CF3268CD14E8}
 		{574573A9-A17C-4D7C-873C-8686806AA249} = {EA06334F-7A9F-411D-8AA0-CF3268CD14E8}
+		{5F3D9EDF-6310-49CE-8AC3-0B4A683A5F5D} = {EA06334F-7A9F-411D-8AA0-CF3268CD14E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0A96E17D-AA6B-453C-BDE6-A74EEF471CE0}
