@@ -3,10 +3,11 @@
 namespace TrappingRainWater {
   class Program {
     public int Trap(int[] height) {
-      int totalWaterArea = 0, landArea;
+      int totalWaterArea = 0, landArea, maxRightLandArea, maxRightPos, maxRightHeight = 0;
       bool maxRightFound = false;
       for (int i = 0, j; i < height.Length - 1; ++i) {
-        for (j = i + 1, landArea = 0, maxRightFound = false; j < height.Length && !maxRightFound && height[i] > 0; ++j) {
+        for (j = i + 1, maxRightPos = i, maxRightHeight = 0, maxRightLandArea = 0, landArea = 0, maxRightFound = false;
+          j < height.Length && !maxRightFound && height[i] > 0; ++j) {
           if (height[i] <= height[j]) {
             int waterArea = height[i] * (j - i - 1) - landArea;
             totalWaterArea += waterArea;
@@ -14,20 +15,15 @@ namespace TrappingRainWater {
             maxRightFound = true;
           } else {
             landArea += height[j];
-          }
-        }
-        if (!maxRightFound && height[i] > 0) {
-          int maxRightPos = i + 1, maxRightArea = height[i + 1];
-          for (j = i + 2; j < height.Length; ++j) {
-            if (maxRightArea < height[j]) {
-              maxRightArea = height[j];
+            if (maxRightHeight < height[j]) {
+              maxRightHeight = height[j];
               maxRightPos = j;
+              maxRightLandArea = landArea - height[j];
             }
           }
-          for (j = i + 1, landArea = 0; j < maxRightPos; j++) {
-            landArea += height[j];
-          }
-          int waterArea = height[maxRightPos] * (maxRightPos - i - 1) - landArea;
+        }
+        if (!maxRightFound && height[i] > 0 && maxRightPos > i) {
+          int waterArea = height[maxRightPos] * (maxRightPos - i - 1) - maxRightLandArea;
           totalWaterArea += waterArea;
           i = maxRightPos - 1;
         }
@@ -41,6 +37,7 @@ namespace TrappingRainWater {
       Console.WriteLine(p.Trap(new int[] { 4, 1, 3, 1, 3, 1, 4 }) == 11);
       Console.WriteLine(p.Trap(new int[] { 4, 2, 3 }) == 1);
       Console.WriteLine(p.Trap(new int[] { 4, 2, 3, 1, 2 }) == 2);
+      Console.WriteLine(p.Trap(new int[] { 0, 2, 0 }) == 0);
       Console.WriteLine("Hello World!");
     }
   }
