@@ -4,54 +4,41 @@ using System.Collections.Generic;
 
 namespace TrappingRainWater {
   class Program {
-    class MyClass {
+    class PondInfo {
       public int Height { get; set; }
-      public int WaterArea { get; set; }
-      public int LandArea { get; set; }
+      public int Water { get; set; }
+      public int Land { get; set; }
       public int Pos { get; set; }
     }
 
     public int Trap(int[] height) {
-      var stack = new Stack<MyClass>();
-      int i = 0;
-      while (i < height.Length && height[i] == 0) ++i;
-      for (; i < height.Length; ++i) {
-        if (stack.Count == 0 || stack.Peek().Height >= height[i]) {
-          stack.Push(new MyClass() {
-            Height = height[i],
-            LandArea = 0,
-            WaterArea = 0,
-            Pos = i
-          });
-        } else if (stack.Count > 0 && stack.Peek().Height < height[i]) {
-          stack.Push(new MyClass() {
-            Height = height[i],
-            LandArea = 0,
-            WaterArea = 0,
-            Pos = i
-          });
-          ConsumeStack(stack);
+      var stack = new Stack<PondInfo>();
+      PondInfo lastInStack = null, current;
+      for (int i = 0, currentLandArea; i < height.Length; ++i) {
+        current = new PondInfo() { Height = height[i], Pos = i };
+        if (stack.Count == 0 || stack.Peek().Height > height[i]) {
+          stack.Push(current);
+        } else {
+          currentLandArea = 0;
+          while (stack.Count > 0 && stack.Peek().Height <= height[i]) {
+            currentLandArea += stack.Peek().Land + stack.Peek().Height;
+            lastInStack = stack.Pop();
+          }
+          if (stack.Count == 0) {
+            current.Water = lastInStack.Water + lastInStack.Height * (current.Pos - lastInStack.Pos) - currentLandArea;
+          } else {
+            current.Land = currentLandArea;
+            current.Water = current.Height * (current.Pos - stack.Peek().Pos - 1) - currentLandArea;
+          }
+          stack.Push(current);
         }
       }
-      if (stack.Count > 1) {
-        ConsumeStack(stack);
+      int totalWater = 0;
+      while (stack.Count > 0) {
+        lastInStack = stack.Pop();
+        totalWater += lastInStack.Water;
       }
-      return stack.Pop().WaterArea;
-    }
-
-    private void ConsumeStack(Stack<MyClass> stack) {
-      var current = stack.Pop();
-      MyClass toConsume = null;
-      while (stack.Count > 0 && stack.Peek().Height < current.Height) {
-        toConsume = stack.Pop();
-        current.LandArea += toConsume.Height + toConsume.LandArea;
-      }
-      if (stack.Count > 0) {
-        current.WaterArea = current.Height * (current.Pos - stack.Peek().Pos - 1) - current.LandArea;
-      } else {
-        current.WaterArea = toConsume.Height * (current.Pos - toConsume.Pos) - current.LandArea;
-      }
-      stack.Push(current);
+      return totalWater;
     }
 
     static void Main(string[] args) {
@@ -61,6 +48,8 @@ namespace TrappingRainWater {
       Console.WriteLine(p.Trap(new int[] { 4, 2, 3 }) == 1);
       Console.WriteLine(p.Trap(new int[] { 4, 2, 3, 1, 2 }) == 2);
       Console.WriteLine(p.Trap(new int[] { 0, 2, 0 }) == 0);
+      Console.WriteLine(p.Trap(new int[] { 4, 1, 3, 1, 3, 1, 4, 5 }) == 11);
+      Console.WriteLine(p.Trap(new int[] { 2, 2, 2 }) == 0);
       Console.WriteLine("Hello World!");
     }
   }
