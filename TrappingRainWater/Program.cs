@@ -1,34 +1,57 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.Generic;
 
 namespace TrappingRainWater {
   class Program {
+    class MyClass {
+      public int Height { get; set; }
+      public int WaterArea { get; set; }
+      public int LandArea { get; set; }
+      public int Pos { get; set; }
+    }
+
     public int Trap(int[] height) {
-      int totalWaterArea = 0, landArea, maxRightLandArea, maxRightPos, maxRightHeight = 0;
-      bool maxRightFound = false;
-      for (int i = 0, j; i < height.Length - 1; ++i) {
-        for (j = i + 1, maxRightPos = i, maxRightHeight = 0, maxRightLandArea = 0, landArea = 0, maxRightFound = false;
-          j < height.Length && !maxRightFound && height[i] > 0; ++j) {
-          if (height[i] <= height[j]) {
-            int waterArea = height[i] * (j - i - 1) - landArea;
-            totalWaterArea += waterArea;
-            i = j - 1;
-            maxRightFound = true;
-          } else {
-            landArea += height[j];
-            if (maxRightHeight < height[j]) {
-              maxRightHeight = height[j];
-              maxRightPos = j;
-              maxRightLandArea = landArea - height[j];
-            }
-          }
-        }
-        if (!maxRightFound && height[i] > 0 && maxRightPos > i) {
-          int waterArea = height[maxRightPos] * (maxRightPos - i - 1) - maxRightLandArea;
-          totalWaterArea += waterArea;
-          i = maxRightPos - 1;
+      var stack = new Stack<MyClass>();
+      int i = 0;
+      while (i < height.Length && height[i] == 0) ++i;
+      for (; i < height.Length; ++i) {
+        if (stack.Count == 0 || stack.Peek().Height >= height[i]) {
+          stack.Push(new MyClass() {
+            Height = height[i],
+            LandArea = 0,
+            WaterArea = 0,
+            Pos = i
+          });
+        } else if (stack.Count > 0 && stack.Peek().Height < height[i]) {
+          stack.Push(new MyClass() {
+            Height = height[i],
+            LandArea = 0,
+            WaterArea = 0,
+            Pos = i
+          });
+          ConsumeStack(stack);
         }
       }
-      return totalWaterArea;
+      if (stack.Count > 1) {
+        ConsumeStack(stack);
+      }
+      return stack.Pop().WaterArea;
+    }
+
+    private void ConsumeStack(Stack<MyClass> stack) {
+      var current = stack.Pop();
+      MyClass toConsume = null;
+      while (stack.Count > 0 && stack.Peek().Height < current.Height) {
+        toConsume = stack.Pop();
+        current.LandArea += toConsume.Height + toConsume.LandArea;
+      }
+      if (stack.Count > 0) {
+        current.WaterArea = current.Height * (current.Pos - stack.Peek().Pos - 1) - current.LandArea;
+      } else {
+        current.WaterArea = toConsume.Height * (current.Pos - toConsume.Pos) - current.LandArea;
+      }
+      stack.Push(current);
     }
 
     static void Main(string[] args) {
