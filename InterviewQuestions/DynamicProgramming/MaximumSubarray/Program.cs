@@ -10,20 +10,21 @@ namespace MaximumSubarray {
     }
 
     public int MaxSubArray(int[] nums) {
-      int sum = nums[0], partialSum = 0;
-      for (int i = 0; i < nums.Length; ++i) {
-        partialSum = nums[i];
-        if (partialSum > sum) {
-          sum = partialSum;
-        }
-        for (int j = i + 1; j < nums.Length; ++j) {
-          partialSum += nums[j];
-          if (partialSum > sum) {
-            sum = partialSum;
-          }
-        }
+      int size = nums.Length;
+      int max_so_far = int.MinValue,
+          max_ending_here = 0;
+
+      for (int i = 0; i < size; i++) {
+        max_ending_here = max_ending_here + nums[i];
+
+        if (max_so_far < max_ending_here)
+          max_so_far = max_ending_here;
+
+        if (max_ending_here < 0)
+          max_ending_here = 0;
       }
-      return sum;
+
+      return max_so_far;
     }
   }
 }
