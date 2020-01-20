@@ -105,6 +105,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BestTimeToBuyAndSellStock",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrappingRainWater", "TrappingRainWater\TrappingRainWater.csproj", "{C5193654-63D8-49C3-8FBA-A0A6EB1D25C4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaximumSubarray", "InterviewQuestions\DynamicProgramming\MaximumSubarray\MaximumSubarray.csproj", "{89DDD646-7C09-4F09-982B-97E5C81D9590}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -279,6 +281,10 @@ Global
 		{C5193654-63D8-49C3-8FBA-A0A6EB1D25C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5193654-63D8-49C3-8FBA-A0A6EB1D25C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5193654-63D8-49C3-8FBA-A0A6EB1D25C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89DDD646-7C09-4F09-982B-97E5C81D9590}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89DDD646-7C09-4F09-982B-97E5C81D9590}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89DDD646-7C09-4F09-982B-97E5C81D9590}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89DDD646-7C09-4F09-982B-97E5C81D9590}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -327,6 +333,7 @@ Global
 		{18831E01-D1BE-4B7E-9DDB-977C21EB310C} = {9BDA00AB-E18D-4382-A944-EA714E7A30B6}
 		{F61513D2-6656-4AB0-9B58-2681A552A5B1} = {18831E01-D1BE-4B7E-9DDB-977C21EB310C}
 		{50A827B7-F98D-484B-A84F-12692B2EF550} = {18831E01-D1BE-4B7E-9DDB-977C21EB310C}
+		{89DDD646-7C09-4F09-982B-97E5C81D9590} = {18831E01-D1BE-4B7E-9DDB-977C21EB310C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0A96E17D-AA6B-453C-BDE6-A74EEF471CE0}
