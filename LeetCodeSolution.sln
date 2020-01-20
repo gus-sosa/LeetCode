@@ -105,6 +105,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BestTimeToBuyAndSellStock",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrappingRainWater", "TrappingRainWater\TrappingRainWater.csproj", "{C5193654-63D8-49C3-8FBA-A0A6EB1D25C4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedianOfTwoSortedArrays", "MedianOfTwoSortedArrays\MedianOfTwoSortedArrays.csproj", "{C2F3FABE-43E2-486C-BBEE-8D6A944AB1D5}"
+EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaximumSubarray", "InterviewQuestions\DynamicProgramming\MaximumSubarray\MaximumSubarray.csproj", "{89DDD646-7C09-4F09-982B-97E5C81D9590}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HouseRobber", "InterviewQuestions\DynamicProgramming\HouseRobber\HouseRobber.csproj", "{670403E1-83C1-48E6-B57B-706840D5E2F8}"
@@ -491,6 +493,10 @@ Global
 		{C5193654-63D8-49C3-8FBA-A0A6EB1D25C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5193654-63D8-49C3-8FBA-A0A6EB1D25C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5193654-63D8-49C3-8FBA-A0A6EB1D25C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2F3FABE-43E2-486C-BBEE-8D6A944AB1D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2F3FABE-43E2-486C-BBEE-8D6A944AB1D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2F3FABE-43E2-486C-BBEE-8D6A944AB1D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2F3FABE-43E2-486C-BBEE-8D6A944AB1D5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{89DDD646-7C09-4F09-982B-97E5C81D9590}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{89DDD646-7C09-4F09-982B-97E5C81D9590}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89DDD646-7C09-4F09-982B-97E5C81D9590}.Release|Any CPU.ActiveCfg = Release|Any CPU
