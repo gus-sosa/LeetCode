@@ -135,6 +135,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PascalTriangle", "Interview
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanToInteger", "InterviewQuestions\Math\RomanToInteger\RomanToInteger.csproj", "{23DC9ED3-1940-4FA4-B28D-C351D7B5386D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidParentheses", "InterviewQuestions\Others\ValidParentheses\ValidParentheses.csproj", "{DD9F8547-066B-4BB0-A4EA-DB287C446CD2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -357,6 +359,10 @@ Global
 		{23DC9ED3-1940-4FA4-B28D-C351D7B5386D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23DC9ED3-1940-4FA4-B28D-C351D7B5386D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23DC9ED3-1940-4FA4-B28D-C351D7B5386D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD9F8547-066B-4BB0-A4EA-DB287C446CD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD9F8547-066B-4BB0-A4EA-DB287C446CD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD9F8547-066B-4BB0-A4EA-DB287C446CD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD9F8547-066B-4BB0-A4EA-DB287C446CD2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -420,6 +426,7 @@ Global
 		{B94D194F-2BB1-4A00-9E35-1EF993C71433} = {9EE6F391-76FF-4F88-8E89-47D8CF5C355A}
 		{D86C860C-0D13-4A32-B527-51A7A77CF9FE} = {9EE6F391-76FF-4F88-8E89-47D8CF5C355A}
 		{23DC9ED3-1940-4FA4-B28D-C351D7B5386D} = {078455F3-B124-4B06-8752-3DCC672CE5B6}
+		{DD9F8547-066B-4BB0-A4EA-DB287C446CD2} = {9EE6F391-76FF-4F88-8E89-47D8CF5C355A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0A96E17D-AA6B-453C-BDE6-A74EEF471CE0}
