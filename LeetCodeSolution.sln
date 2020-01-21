@@ -131,6 +131,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HammingDistance", "Intervie
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseBits", "InterviewQuestions\Others\ReverseBits\ReverseBits.csproj", "{B94D194F-2BB1-4A00-9E35-1EF993C71433}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PascalTriangle", "InterviewQuestions\Others\PascalTriangle\PascalTriangle.csproj", "{D86C860C-0D13-4A32-B527-51A7A77CF9FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -345,6 +347,10 @@ Global
 		{B94D194F-2BB1-4A00-9E35-1EF993C71433}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B94D194F-2BB1-4A00-9E35-1EF993C71433}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B94D194F-2BB1-4A00-9E35-1EF993C71433}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D86C860C-0D13-4A32-B527-51A7A77CF9FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D86C860C-0D13-4A32-B527-51A7A77CF9FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D86C860C-0D13-4A32-B527-51A7A77CF9FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D86C860C-0D13-4A32-B527-51A7A77CF9FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -406,6 +412,7 @@ Global
 		{3E335124-BBD9-4923-BD67-4616F39BB4AF} = {9EE6F391-76FF-4F88-8E89-47D8CF5C355A}
 		{5FF08F4F-2EAE-46A8-9075-186F08B5FB53} = {9EE6F391-76FF-4F88-8E89-47D8CF5C355A}
 		{B94D194F-2BB1-4A00-9E35-1EF993C71433} = {9EE6F391-76FF-4F88-8E89-47D8CF5C355A}
+		{D86C860C-0D13-4A32-B527-51A7A77CF9FE} = {9EE6F391-76FF-4F88-8E89-47D8CF5C355A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0A96E17D-AA6B-453C-BDE6-A74EEF471CE0}
