@@ -143,6 +143,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3Sum", "InterviewQuestions\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SetMatrixZeros", "InterviewQuestions\Array\SetMatrixZeros\SetMatrixZeros.csproj", "{FDE7191B-3562-424D-A5D7-79E2371716FC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupAnagrams", "InterviewQuestions\Array\GroupAnagrams\GroupAnagrams.csproj", "{B4659692-FB7F-4EA7-B5CD-486B4C5AA7E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -381,6 +383,10 @@ Global
 		{FDE7191B-3562-424D-A5D7-79E2371716FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDE7191B-3562-424D-A5D7-79E2371716FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FDE7191B-3562-424D-A5D7-79E2371716FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4659692-FB7F-4EA7-B5CD-486B4C5AA7E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4659692-FB7F-4EA7-B5CD-486B4C5AA7E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4659692-FB7F-4EA7-B5CD-486B4C5AA7E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4659692-FB7F-4EA7-B5CD-486B4C5AA7E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -448,6 +454,7 @@ Global
 		{687697D5-13D6-42E7-B5C1-231288DB3F3E} = {9EE6F391-76FF-4F88-8E89-47D8CF5C355A}
 		{72FEA2A0-9B57-41BF-A964-E49A7C54FB9C} = {93E185D0-7DA1-4BFC-B9AC-CBE177AC570D}
 		{FDE7191B-3562-424D-A5D7-79E2371716FC} = {93E185D0-7DA1-4BFC-B9AC-CBE177AC570D}
+		{B4659692-FB7F-4EA7-B5CD-486B4C5AA7E3} = {93E185D0-7DA1-4BFC-B9AC-CBE177AC570D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0A96E17D-AA6B-453C-BDE6-A74EEF471CE0}
