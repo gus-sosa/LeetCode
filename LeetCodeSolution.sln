@@ -147,7 +147,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupAnagrams", "InterviewQ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestSubstringWithoutRepeatingCharacters", "InterviewQuestions\Array\LongestSubstringWithoutRepeatingCharacters\LongestSubstringWithoutRepeatingCharacters.csproj", "{F761E9ED-570E-448B-B7E1-A59EB71192C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestPalindromeSubstring", "InterviewQuestions\Array\LongestPalindromeSubstring\LongestPalindromeSubstring.csproj", "{B0180F0A-51E1-41E9-B234-2B52BBF543E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LongestPalindromeSubstring", "InterviewQuestions\Array\LongestPalindromeSubstring\LongestPalindromeSubstring.csproj", "{B0180F0A-51E1-41E9-B234-2B52BBF543E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IncreasingTripletSubsequence", "InterviewQuestions\Array\IncreasingTripletSubsequence\IncreasingTripletSubsequence.csproj", "{32515D38-53CD-436E-BDBE-6C15A1FED2C7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -399,6 +401,10 @@ Global
 		{B0180F0A-51E1-41E9-B234-2B52BBF543E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0180F0A-51E1-41E9-B234-2B52BBF543E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0180F0A-51E1-41E9-B234-2B52BBF543E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32515D38-53CD-436E-BDBE-6C15A1FED2C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32515D38-53CD-436E-BDBE-6C15A1FED2C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32515D38-53CD-436E-BDBE-6C15A1FED2C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32515D38-53CD-436E-BDBE-6C15A1FED2C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -469,6 +475,7 @@ Global
 		{B4659692-FB7F-4EA7-B5CD-486B4C5AA7E3} = {93E185D0-7DA1-4BFC-B9AC-CBE177AC570D}
 		{F761E9ED-570E-448B-B7E1-A59EB71192C3} = {93E185D0-7DA1-4BFC-B9AC-CBE177AC570D}
 		{B0180F0A-51E1-41E9-B234-2B52BBF543E9} = {93E185D0-7DA1-4BFC-B9AC-CBE177AC570D}
+		{32515D38-53CD-436E-BDBE-6C15A1FED2C7} = {93E185D0-7DA1-4BFC-B9AC-CBE177AC570D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0A96E17D-AA6B-453C-BDE6-A74EEF471CE0}
