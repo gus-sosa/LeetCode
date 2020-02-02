@@ -155,6 +155,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddTwoNumbers1", "Interview
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OddEvenLinkedList", "InterviewQuestions\LinkedList\OddEvenLinkedList\OddEvenLinkedList.csproj", "{7F730A9B-D1E0-4A37-84ED-BCA367065712}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntersectionOfTwoLinkedList", "InterviewQuestions\LinkedList\IntersectionOfTwoLinkedList\IntersectionOfTwoLinkedList.csproj", "{5F970F6E-16C9-4B67-88B8-E49562C32C49}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -417,6 +419,10 @@ Global
 		{7F730A9B-D1E0-4A37-84ED-BCA367065712}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F730A9B-D1E0-4A37-84ED-BCA367065712}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F730A9B-D1E0-4A37-84ED-BCA367065712}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F970F6E-16C9-4B67-88B8-E49562C32C49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F970F6E-16C9-4B67-88B8-E49562C32C49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F970F6E-16C9-4B67-88B8-E49562C32C49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F970F6E-16C9-4B67-88B8-E49562C32C49}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -490,6 +496,7 @@ Global
 		{32515D38-53CD-436E-BDBE-6C15A1FED2C7} = {93E185D0-7DA1-4BFC-B9AC-CBE177AC570D}
 		{856FDC91-430E-4122-8058-AEAEA410E85F} = {FDD78610-8AD2-4384-9DA1-5D0074CA336F}
 		{7F730A9B-D1E0-4A37-84ED-BCA367065712} = {FDD78610-8AD2-4384-9DA1-5D0074CA336F}
+		{5F970F6E-16C9-4B67-88B8-E49562C32C49} = {FDD78610-8AD2-4384-9DA1-5D0074CA336F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0A96E17D-AA6B-453C-BDE6-A74EEF471CE0}
