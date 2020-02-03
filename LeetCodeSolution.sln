@@ -159,7 +159,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntersectionOfTwoLinkedList
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTreeInorderTraversal", "InterviewQuestions\Trees\BinaryTreeInorderTraversal\BinaryTreeInorderTraversal.csproj", "{78A72A84-9B4D-4165-8647-E1C6CEE8C807}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTreeZigzagLevelOrderTraversal", "InterviewQuestions\Trees\BinaryTreeZigzagLevelOrderTraversal\BinaryTreeZigzagLevelOrderTraversal.csproj", "{88BF7B73-F48D-473A-83D2-A4E2028026B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTreeZigzagLevelOrderTraversal", "InterviewQuestions\Trees\BinaryTreeZigzagLevelOrderTraversal\BinaryTreeZigzagLevelOrderTraversal.csproj", "{88BF7B73-F48D-473A-83D2-A4E2028026B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTreeFromPreorderAndInorderTraversal", "InterviewQuestions\Trees\BinaryTreeFromPreorderAndInorderTraversal\BinaryTreeFromPreorderAndInorderTraversal.csproj", "{D3F617B9-3878-4293-81C7-3818B5E74948}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -435,6 +437,10 @@ Global
 		{88BF7B73-F48D-473A-83D2-A4E2028026B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88BF7B73-F48D-473A-83D2-A4E2028026B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88BF7B73-F48D-473A-83D2-A4E2028026B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3F617B9-3878-4293-81C7-3818B5E74948}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3F617B9-3878-4293-81C7-3818B5E74948}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3F617B9-3878-4293-81C7-3818B5E74948}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3F617B9-3878-4293-81C7-3818B5E74948}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -511,6 +517,7 @@ Global
 		{5F970F6E-16C9-4B67-88B8-E49562C32C49} = {FDD78610-8AD2-4384-9DA1-5D0074CA336F}
 		{78A72A84-9B4D-4165-8647-E1C6CEE8C807} = {EA06334F-7A9F-411D-8AA0-CF3268CD14E8}
 		{88BF7B73-F48D-473A-83D2-A4E2028026B1} = {EA06334F-7A9F-411D-8AA0-CF3268CD14E8}
+		{D3F617B9-3878-4293-81C7-3818B5E74948} = {EA06334F-7A9F-411D-8AA0-CF3268CD14E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0A96E17D-AA6B-453C-BDE6-A74EEF471CE0}
