@@ -167,6 +167,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PopulatingNextRightPointers
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KthSmallestElementInBST", "InterviewQuestions\Trees\KthSmallestElementInBST\KthSmallestElementInBST.csproj", "{6707E375-8299-4DC5-AFDB-41692F164EC2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberOfIslands", "InterviewQuestions\Trees\NumberOfIslands\NumberOfIslands.csproj", "{847D83E4-E5A8-4522-AAF3-968A8CB1577F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -453,6 +455,10 @@ Global
 		{6707E375-8299-4DC5-AFDB-41692F164EC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6707E375-8299-4DC5-AFDB-41692F164EC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6707E375-8299-4DC5-AFDB-41692F164EC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{847D83E4-E5A8-4522-AAF3-968A8CB1577F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{847D83E4-E5A8-4522-AAF3-968A8CB1577F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{847D83E4-E5A8-4522-AAF3-968A8CB1577F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{847D83E4-E5A8-4522-AAF3-968A8CB1577F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -532,6 +538,7 @@ Global
 		{D3F617B9-3878-4293-81C7-3818B5E74948} = {EA06334F-7A9F-411D-8AA0-CF3268CD14E8}
 		{7685D353-5F39-490D-9F6A-41010021F43A} = {EA06334F-7A9F-411D-8AA0-CF3268CD14E8}
 		{6707E375-8299-4DC5-AFDB-41692F164EC2} = {EA06334F-7A9F-411D-8AA0-CF3268CD14E8}
+		{847D83E4-E5A8-4522-AAF3-968A8CB1577F} = {EA06334F-7A9F-411D-8AA0-CF3268CD14E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0A96E17D-AA6B-453C-BDE6-A74EEF471CE0}
