@@ -175,6 +175,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Backtracking", "Backtrackin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerateParentheses", "InterviewQuestions\Backtracking\GenerateParentheses\GenerateParentheses.csproj", "{2C1B32BE-5955-46AD-9453-666CFA53D714}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Permutations", "InterviewQuestions\Backtracking\Permutations\Permutations.csproj", "{A988D91E-7FDA-435B-B094-E1B1D8DC3B09}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -473,6 +475,10 @@ Global
 		{2C1B32BE-5955-46AD-9453-666CFA53D714}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C1B32BE-5955-46AD-9453-666CFA53D714}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C1B32BE-5955-46AD-9453-666CFA53D714}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A988D91E-7FDA-435B-B094-E1B1D8DC3B09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A988D91E-7FDA-435B-B094-E1B1D8DC3B09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A988D91E-7FDA-435B-B094-E1B1D8DC3B09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A988D91E-7FDA-435B-B094-E1B1D8DC3B09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -556,6 +562,7 @@ Global
 		{1DF994CE-760E-420E-A3D4-959C929F40CC} = {13912DF8-9759-4BF9-BD35-DC97AFBAB42A}
 		{13912DF8-9759-4BF9-BD35-DC97AFBAB42A} = {9BDA00AB-E18D-4382-A944-EA714E7A30B6}
 		{2C1B32BE-5955-46AD-9453-666CFA53D714} = {13912DF8-9759-4BF9-BD35-DC97AFBAB42A}
+		{A988D91E-7FDA-435B-B094-E1B1D8DC3B09} = {13912DF8-9759-4BF9-BD35-DC97AFBAB42A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0A96E17D-AA6B-453C-BDE6-A74EEF471CE0}
