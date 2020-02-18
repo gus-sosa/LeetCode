@@ -193,7 +193,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchForARange", "Intervie
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MergeIntervals", "InterviewQuestions\SortingAndSearching\MergeIntervals\MergeIntervals.csproj", "{74986AE1-F93B-491C-8CD3-2D801D6AA50F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchInRotatedSortedArray", "InterviewQuestions\SortingAndSearching\SearchInRotatedSortedArray\SearchInRotatedSortedArray.csproj", "{689C925B-C7E0-4034-A302-EA71A3700612}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchInRotatedSortedArray", "InterviewQuestions\SortingAndSearching\SearchInRotatedSortedArray\SearchInRotatedSortedArray.csproj", "{689C925B-C7E0-4034-A302-EA71A3700612}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegerToEnglishWords", "IntegerToEnglishWords\IntegerToEnglishWords.csproj", "{180D4403-3674-4DC0-A52A-E121E3D90D96}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -533,6 +535,10 @@ Global
 		{689C925B-C7E0-4034-A302-EA71A3700612}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{689C925B-C7E0-4034-A302-EA71A3700612}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{689C925B-C7E0-4034-A302-EA71A3700612}.Release|Any CPU.Build.0 = Release|Any CPU
+		{180D4403-3674-4DC0-A52A-E121E3D90D96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{180D4403-3674-4DC0-A52A-E121E3D90D96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{180D4403-3674-4DC0-A52A-E121E3D90D96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{180D4403-3674-4DC0-A52A-E121E3D90D96}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
