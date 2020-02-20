@@ -203,6 +203,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerializeAndDeserializeBina
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelSheetColumnNumber", "InterviewQuestions\Math\ExcelSheetColumnNumber\ExcelSheetColumnNumber.csproj", "{12CEF688-95ED-44A2-87A7-72C595B6F46D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pow", "InterviewQuestions\Math\Pow\Pow.csproj", "{2732133F-3D81-43E8-B8A7-FEAC0B75957E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -557,6 +559,10 @@ Global
 		{12CEF688-95ED-44A2-87A7-72C595B6F46D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12CEF688-95ED-44A2-87A7-72C595B6F46D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12CEF688-95ED-44A2-87A7-72C595B6F46D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2732133F-3D81-43E8-B8A7-FEAC0B75957E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2732133F-3D81-43E8-B8A7-FEAC0B75957E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2732133F-3D81-43E8-B8A7-FEAC0B75957E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2732133F-3D81-43E8-B8A7-FEAC0B75957E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -653,6 +659,7 @@ Global
 		{551A726D-1082-4937-AD2A-A4E0673089F1} = {18831E01-D1BE-4B7E-9DDB-977C21EB310C}
 		{D859D7C2-71BA-4D2F-9D90-B21444C601F5} = {A368FB87-B7CD-42EE-8C5D-CB2EFF719F69}
 		{12CEF688-95ED-44A2-87A7-72C595B6F46D} = {078455F3-B124-4B06-8752-3DCC672CE5B6}
+		{2732133F-3D81-43E8-B8A7-FEAC0B75957E} = {078455F3-B124-4B06-8752-3DCC672CE5B6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0A96E17D-AA6B-453C-BDE6-A74EEF471CE0}
