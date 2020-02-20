@@ -207,6 +207,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pow", "InterviewQuestions\M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sqrt", "InterviewQuestions\Math\Sqrt\Sqrt.csproj", "{1E2C1B48-B344-4D35-9D75-DCF917885CFA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvaluateReversePolishNotation", "InterviewQuestions\Others\EvaluateReversePolishNotation\EvaluateReversePolishNotation.csproj", "{5348D9B5-808A-4BAD-B34C-9D2136059017}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -569,6 +571,10 @@ Global
 		{1E2C1B48-B344-4D35-9D75-DCF917885CFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E2C1B48-B344-4D35-9D75-DCF917885CFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E2C1B48-B344-4D35-9D75-DCF917885CFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5348D9B5-808A-4BAD-B34C-9D2136059017}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5348D9B5-808A-4BAD-B34C-9D2136059017}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5348D9B5-808A-4BAD-B34C-9D2136059017}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5348D9B5-808A-4BAD-B34C-9D2136059017}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -667,6 +673,7 @@ Global
 		{12CEF688-95ED-44A2-87A7-72C595B6F46D} = {078455F3-B124-4B06-8752-3DCC672CE5B6}
 		{2732133F-3D81-43E8-B8A7-FEAC0B75957E} = {078455F3-B124-4B06-8752-3DCC672CE5B6}
 		{1E2C1B48-B344-4D35-9D75-DCF917885CFA} = {078455F3-B124-4B06-8752-3DCC672CE5B6}
+		{5348D9B5-808A-4BAD-B34C-9D2136059017} = {9EE6F391-76FF-4F88-8E89-47D8CF5C355A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0A96E17D-AA6B-453C-BDE6-A74EEF471CE0}
