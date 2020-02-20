@@ -197,6 +197,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchInRotatedSortedArray"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegerToEnglishWords", "IntegerToEnglishWords\IntegerToEnglishWords.csproj", "{180D4403-3674-4DC0-A52A-E121E3D90D96}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniquePaths", "InterviewQuestions\DynamicProgramming\UniquePaths\UniquePaths.csproj", "{551A726D-1082-4937-AD2A-A4E0673089F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -539,6 +541,10 @@ Global
 		{180D4403-3674-4DC0-A52A-E121E3D90D96}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{180D4403-3674-4DC0-A52A-E121E3D90D96}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{180D4403-3674-4DC0-A52A-E121E3D90D96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{551A726D-1082-4937-AD2A-A4E0673089F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{551A726D-1082-4937-AD2A-A4E0673089F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{551A726D-1082-4937-AD2A-A4E0673089F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{551A726D-1082-4937-AD2A-A4E0673089F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -632,6 +638,7 @@ Global
 		{1E426DAA-AE91-4EBD-85F7-9DF021C2B503} = {2B87C11B-BFB0-4382-8AD5-035BC8F86D49}
 		{74986AE1-F93B-491C-8CD3-2D801D6AA50F} = {2B87C11B-BFB0-4382-8AD5-035BC8F86D49}
 		{689C925B-C7E0-4034-A302-EA71A3700612} = {2B87C11B-BFB0-4382-8AD5-035BC8F86D49}
+		{551A726D-1082-4937-AD2A-A4E0673089F1} = {18831E01-D1BE-4B7E-9DDB-977C21EB310C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0A96E17D-AA6B-453C-BDE6-A74EEF471CE0}
