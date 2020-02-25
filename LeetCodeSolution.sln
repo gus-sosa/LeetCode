@@ -211,6 +211,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvaluateReversePolishNotati
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MajorityElement", "InterviewQuestions\Others\MajorityElement\MajorityElement.csproj", "{8948F8C7-8BFC-41C8-A4AD-24D02B893655}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Search2DMatrixII", "InterviewQuestions\SortingAndSearching\Search2DMatrixII\Search2DMatrixII.csproj", "{DD0D14D5-EF74-4C6D-8A31-776AA2E60418}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -581,6 +583,10 @@ Global
 		{8948F8C7-8BFC-41C8-A4AD-24D02B893655}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8948F8C7-8BFC-41C8-A4AD-24D02B893655}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8948F8C7-8BFC-41C8-A4AD-24D02B893655}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD0D14D5-EF74-4C6D-8A31-776AA2E60418}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD0D14D5-EF74-4C6D-8A31-776AA2E60418}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD0D14D5-EF74-4C6D-8A31-776AA2E60418}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD0D14D5-EF74-4C6D-8A31-776AA2E60418}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -681,6 +687,7 @@ Global
 		{1E2C1B48-B344-4D35-9D75-DCF917885CFA} = {078455F3-B124-4B06-8752-3DCC672CE5B6}
 		{5348D9B5-808A-4BAD-B34C-9D2136059017} = {9EE6F391-76FF-4F88-8E89-47D8CF5C355A}
 		{8948F8C7-8BFC-41C8-A4AD-24D02B893655} = {9EE6F391-76FF-4F88-8E89-47D8CF5C355A}
+		{DD0D14D5-EF74-4C6D-8A31-776AA2E60418} = {2B87C11B-BFB0-4382-8AD5-035BC8F86D49}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0A96E17D-AA6B-453C-BDE6-A74EEF471CE0}
