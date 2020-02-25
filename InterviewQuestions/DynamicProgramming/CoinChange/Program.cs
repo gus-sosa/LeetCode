@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace CoinChange {
   class Program {
@@ -19,52 +20,37 @@ namespace CoinChange {
 
 
     public class Solution {
-      Dictionary<int, Dictionary<int, int>> dict;
-
       public int CoinChange(int[] coins, int amount) {
         Array.Sort(coins);
-        dict = new Dictionary<int, Dictionary<int, int>>();
-        return CoinChange(coins, coins.Length - 1, amount);
+        Array.Reverse(coins);
+        var coinAmounts = new int[coins.Length];
+        int result = -1;
+        CoinChange(coins, amount, 0, ref result);
+        return result;
       }
 
-      private int CoinChange(int[] coins, int pos, int amount) {
+      private bool CoinChange(int[] coins, int amount, int pos, ref int count) {
         if (amount == 0) {
-          return 0;
+          count = 0;
+          return true;
         }
-        if (pos == -1) {
-          return -1;
-        }
-        if (dict.ContainsKey(pos) && dict[pos].ContainsKey(amount)) {
-          return dict[pos][amount];
-        }
-        if (coins[pos] <= amount) {
-          int minCountGlobal = CoinChange(coins, pos - 1, amount);
-          for (int i = amount / coins[pos], minCount = 0; i > 0; --i) {
-            minCount = CoinChange(coins, pos - 1, amount - i * coins[pos]);
-            if (minCountGlobal == -1) {
-              if (minCount != -1) {
-                minCountGlobal = minCount + i;
-              }
-            } else {
-              if (minCountGlobal > minCount) {
-                minCountGlobal = minCount;
-              } else {
-                break;
-              }
-            }
-
-          }
-          return AddDictionary(pos, amount, minCountGlobal);
+        if (pos == coins.Length) { 
+          return false;
         } else {
-          return AddDictionary(pos, amount, CoinChange(coins, pos - 1, amount));
+          int localMin = int.MaxValue, tmpCount = -1;
+          bool flag = false;
+          for (int i = 1, l = amount / coins[pos]; i <= l; ++i) {
+            if (CoinChange(coins, amount - coins[pos] * i, pos + 1, ref tmpCount)) {
+              flag = true;
+              localMin = Math.Min(localMin, tmpCount + i);
+            }
+          }
+          flag = flag || CoinChange(coins, amount, pos + 1, ref tmpCount);
+          if (flag) {
+            count = Math.Min(localMin, tmpCount);
+          }
+          return flag;
         }
-      }
-
-      private int AddDictionary(int pos, int amount, int value) {
-        if (!dict.ContainsKey(pos)) {
-          dict[pos] = new Dictionary<int, int>();
-        }
-        return dict[pos][amount] = value;
       }
     }
 
