@@ -213,6 +213,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MajorityElement", "Intervie
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Search2DMatrixII", "InterviewQuestions\SortingAndSearching\Search2DMatrixII\Search2DMatrixII.csproj", "{DD0D14D5-EF74-4C6D-8A31-776AA2E60418}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JumpGame", "InterviewQuestions\DynamicProgramming\JumpGame\JumpGame.csproj", "{392182EB-25D1-4871-A6A6-B0B8343F635F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -587,6 +589,10 @@ Global
 		{DD0D14D5-EF74-4C6D-8A31-776AA2E60418}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD0D14D5-EF74-4C6D-8A31-776AA2E60418}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD0D14D5-EF74-4C6D-8A31-776AA2E60418}.Release|Any CPU.Build.0 = Release|Any CPU
+		{392182EB-25D1-4871-A6A6-B0B8343F635F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{392182EB-25D1-4871-A6A6-B0B8343F635F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{392182EB-25D1-4871-A6A6-B0B8343F635F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{392182EB-25D1-4871-A6A6-B0B8343F635F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -688,6 +694,7 @@ Global
 		{5348D9B5-808A-4BAD-B34C-9D2136059017} = {9EE6F391-76FF-4F88-8E89-47D8CF5C355A}
 		{8948F8C7-8BFC-41C8-A4AD-24D02B893655} = {9EE6F391-76FF-4F88-8E89-47D8CF5C355A}
 		{DD0D14D5-EF74-4C6D-8A31-776AA2E60418} = {2B87C11B-BFB0-4382-8AD5-035BC8F86D49}
+		{392182EB-25D1-4871-A6A6-B0B8343F635F} = {18831E01-D1BE-4B7E-9DDB-977C21EB310C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0A96E17D-AA6B-453C-BDE6-A74EEF471CE0}
