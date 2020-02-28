@@ -1,8 +1,11 @@
 ﻿using System;
+using System.Diagnostics;
 
 namespace Search2DMatrixII {
   class Program {
     static void Main(string[] args) {
+      var timer = new Stopwatch();
+      timer.Start();
       var s = new Solution();
       var matrix = new int[,] {
         {1, 4, 7, 11, 15},
@@ -24,12 +27,53 @@ namespace Search2DMatrixII {
       for (int i = 27; i < 50; ++i) {
         Console.WriteLine($"{i}={s.SearchMatrix(matrix, i) == (i == 30)}");
       }
+      timer.Stop();
+      Console.WriteLine($"time==={timer.ElapsedMilliseconds}");
+      timer.Reset();
+      timer.Start();
+      for (int i = 1; i < 20; ++i) {
+        Console.WriteLine($"{i}={s.SearchMatrix1(matrix, i) == true}");
+      }
+      Console.WriteLine($"{20}={s.SearchMatrix1(matrix, 20) == false}");
+      Console.WriteLine($"{21}={s.SearchMatrix1(matrix, 21) == true}");
+      Console.WriteLine($"{22}={s.SearchMatrix1(matrix, 22) == true}");
+      Console.WriteLine($"{23}={s.SearchMatrix1(matrix, 23) == true}");
+      Console.WriteLine($"{24}={s.SearchMatrix1(matrix, 24) == true}");
+      Console.WriteLine($"{25}={s.SearchMatrix1(matrix, 25) == false}");
+      Console.WriteLine($"{26}={s.SearchMatrix1(matrix, 26) == true}");
+      for (int i = 27; i < 50; ++i) {
+        Console.WriteLine($"{i}={s.SearchMatrix1(matrix, i) == (i == 30)}");
+      }
+      timer.Stop();
+      Console.WriteLine($"time==={timer.ElapsedMilliseconds}");
     }
 
     #region MyRegion
 
 
     public class Solution {
+      public bool SearchMatrix1(int[,] matrix, int target) {
+        //start from bottom left
+        var numR = matrix.GetLength(0);
+        var numC = matrix.GetLength(1);
+
+        var r = numR - 1;
+        var c = 0;
+
+        while (c >= 0 && c < numC && r >= 0 && r < numR) {
+          var curr = matrix[r, c];
+          if (target == curr) return true;
+
+          if (target < curr) {
+            r--;
+          } else {
+            c++;
+          }
+        }
+        return false;
+      }
+
+
       private int target;
       private int[,] matrix;
 
