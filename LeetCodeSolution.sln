@@ -221,6 +221,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestIncreasingSubsequenc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsertDeleteGetRandom", "InterviewQuestions\Design\InsertDeleteGetRandom\InsertDeleteGetRandom.csproj", "{67DEE917-6799-4597-8C45-F5C89F6328DF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HappyNumber", "InterviewQuestions\Math\HappyNumber\HappyNumber.csproj", "{0C4593FE-85E8-4FF6-BCAF-5BD128D899D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -611,6 +613,10 @@ Global
 		{67DEE917-6799-4597-8C45-F5C89F6328DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67DEE917-6799-4597-8C45-F5C89F6328DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67DEE917-6799-4597-8C45-F5C89F6328DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C4593FE-85E8-4FF6-BCAF-5BD128D899D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C4593FE-85E8-4FF6-BCAF-5BD128D899D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C4593FE-85E8-4FF6-BCAF-5BD128D899D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C4593FE-85E8-4FF6-BCAF-5BD128D899D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -716,6 +722,7 @@ Global
 		{58F24327-3B99-4E99-BE38-B47A679CEF17} = {18831E01-D1BE-4B7E-9DDB-977C21EB310C}
 		{1DA78C19-81A1-47F7-A784-710813CCA307} = {18831E01-D1BE-4B7E-9DDB-977C21EB310C}
 		{67DEE917-6799-4597-8C45-F5C89F6328DF} = {18831E01-D1BE-4B7E-9DDB-977C21EB310C}
+		{0C4593FE-85E8-4FF6-BCAF-5BD128D899D4} = {078455F3-B124-4B06-8752-3DCC672CE5B6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0A96E17D-AA6B-453C-BDE6-A74EEF471CE0}
