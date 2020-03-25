@@ -229,6 +229,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GasStation", "GasStation\Ga
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactorialTrailingZeros", "InterviewQuestions\Math\FactorialTrailingZeros\FactorialTrailingZeros.csproj", "{EF439391-0D57-43E5-9661-E885E2E65D10}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaximalSquare", "MaximalSquare\MaximalSquare.csproj", "{6AB6D6F9-F11E-4A2B-A532-9B9FAB3984B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -635,6 +637,10 @@ Global
 		{EF439391-0D57-43E5-9661-E885E2E65D10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF439391-0D57-43E5-9661-E885E2E65D10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF439391-0D57-43E5-9661-E885E2E65D10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AB6D6F9-F11E-4A2B-A532-9B9FAB3984B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AB6D6F9-F11E-4A2B-A532-9B9FAB3984B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AB6D6F9-F11E-4A2B-A532-9B9FAB3984B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AB6D6F9-F11E-4A2B-A532-9B9FAB3984B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
