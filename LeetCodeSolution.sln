@@ -235,6 +235,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DivideTwoIntegers", "Interv
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FractionToRecurringDecimal", "InterviewQuestions\Math\FractionToRecurringDecimal\FractionToRecurringDecimal.csproj", "{F4444128-E9BF-4BD1-9B92-40BCA9F1BF87}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumOfTwoIntegers", "InterviewQuestions\Math\SumOfTwoIntegers\SumOfTwoIntegers.csproj", "{33495808-F28E-4328-A12B-8725477EC3E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -653,6 +655,10 @@ Global
 		{F4444128-E9BF-4BD1-9B92-40BCA9F1BF87}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4444128-E9BF-4BD1-9B92-40BCA9F1BF87}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4444128-E9BF-4BD1-9B92-40BCA9F1BF87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33495808-F28E-4328-A12B-8725477EC3E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33495808-F28E-4328-A12B-8725477EC3E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33495808-F28E-4328-A12B-8725477EC3E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33495808-F28E-4328-A12B-8725477EC3E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -762,6 +768,7 @@ Global
 		{EF439391-0D57-43E5-9661-E885E2E65D10} = {078455F3-B124-4B06-8752-3DCC672CE5B6}
 		{0AFEC896-69D2-4A11-AABB-26B57591ABF3} = {078455F3-B124-4B06-8752-3DCC672CE5B6}
 		{F4444128-E9BF-4BD1-9B92-40BCA9F1BF87} = {078455F3-B124-4B06-8752-3DCC672CE5B6}
+		{33495808-F28E-4328-A12B-8725477EC3E6} = {078455F3-B124-4B06-8752-3DCC672CE5B6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0A96E17D-AA6B-453C-BDE6-A74EEF471CE0}
