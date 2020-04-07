@@ -12,34 +12,19 @@ namespace DivideTwoIntegers {
 
     public class Solution {
       public int Divide(int dividend, int divisor) {
-        if (dividend == int.MinValue && divisor == -1) {
-          return int.MaxValue;
-        }
-
-        if (divisor == 1) {
-          return dividend;
-        }
-
-        long sign = ((dividend < 0) ^
-                     (divisor < 0)) ? -1 : 1;
-
-        dividend = Math.Abs(dividend);
-        divisor = Math.Abs(divisor);
-
-        int quotient = 0, temp = 0, temp1 = 0;
-
-        while (dividend >= divisor) {
-          temp = divisor;
-          temp1 = 1;
-          while (dividend >= temp) {
-            temp <<= 1;
-            temp1 <<= 1;
+        if (divisor == 0) return int.MaxValue;
+        int sign = dividend > 0 ^ divisor > 0 ? -1 : 1;
+        long m = Math.Abs((long)dividend), n = Math.Abs((long)divisor), count = 0;
+        for (m -= n; m >= 0; m -= n) {
+          count++;
+          if (m == 0) break;
+          for (int subCount = 1; m - (n << subCount) >= 0; subCount++) {
+            m -= n << subCount;
+            count += 1 << subCount;
           }
-          dividend -= temp >> 1;
-          quotient += temp1 >> 1;
         }
-
-        return (int)(sign * quotient);
+        count = sign == 1 ? count : -count;
+        return count > int.MaxValue ? int.MaxValue : (int)count;
       }
     }
 
