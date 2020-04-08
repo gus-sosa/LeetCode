@@ -243,6 +243,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductOfArrayExceptSelf", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpiralMatrix", "InterviewQuestions\Array\SpiralMatrix\SpiralMatrix.csproj", "{EA1F7E52-0612-41A3-9400-F2689784CAF4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4SumII", "InterviewQuestions\Array\4SumII\4SumII.csproj", "{1A2F4A4F-4674-46BD-A273-818ABA94D662}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -677,6 +679,10 @@ Global
 		{EA1F7E52-0612-41A3-9400-F2689784CAF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA1F7E52-0612-41A3-9400-F2689784CAF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA1F7E52-0612-41A3-9400-F2689784CAF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A2F4A4F-4674-46BD-A273-818ABA94D662}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A2F4A4F-4674-46BD-A273-818ABA94D662}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A2F4A4F-4674-46BD-A273-818ABA94D662}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A2F4A4F-4674-46BD-A273-818ABA94D662}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -790,6 +796,7 @@ Global
 		{33495808-F28E-4328-A12B-8725477EC3E6} = {078455F3-B124-4B06-8752-3DCC672CE5B6}
 		{DB69DFFE-FE05-4C28-BF32-FA8DF68C67CB} = {93E185D0-7DA1-4BFC-B9AC-CBE177AC570D}
 		{EA1F7E52-0612-41A3-9400-F2689784CAF4} = {93E185D0-7DA1-4BFC-B9AC-CBE177AC570D}
+		{1A2F4A4F-4674-46BD-A273-818ABA94D662} = {93E185D0-7DA1-4BFC-B9AC-CBE177AC570D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0A96E17D-AA6B-453C-BDE6-A74EEF471CE0}
