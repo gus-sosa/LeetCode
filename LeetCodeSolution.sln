@@ -211,7 +211,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvaluateReversePolishNotati
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MajorityElement", "InterviewQuestions\Others\MajorityElement\MajorityElement.csproj", "{8948F8C7-8BFC-41C8-A4AD-24D02B893655}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskScheduler", "InterviewQuestions\Others\TaskScheduler\TaskScheduler.csproj", "{3B1B3504-46F5-4C8B-A104-E6112F0CFB0E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskScheduler", "InterviewQuestions\Others\TaskScheduler\TaskScheduler.csproj", "{3B1B3504-46F5-4C8B-A104-E6112F0CFB0E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Search2DMatrixII", "InterviewQuestions\SortingAndSearching\Search2DMatrixII\Search2DMatrixII.csproj", "{DD0D14D5-EF74-4C6D-8A31-776AA2E60418}"
 EndProject
@@ -238,6 +238,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FractionToRecurringDecimal", "InterviewQuestions\Math\FractionToRecurringDecimal\FractionToRecurringDecimal.csproj", "{F4444128-E9BF-4BD1-9B92-40BCA9F1BF87}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumOfTwoIntegers", "InterviewQuestions\Math\SumOfTwoIntegers\SumOfTwoIntegers.csproj", "{33495808-F28E-4328-A12B-8725477EC3E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductOfArrayExceptSelf", "InterviewQuestions\Array\ProductOfArrayExceptSelf\ProductOfArrayExceptSelf.csproj", "{DB69DFFE-FE05-4C28-BF32-FA8DF68C67CB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -609,6 +611,10 @@ Global
 		{8948F8C7-8BFC-41C8-A4AD-24D02B893655}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8948F8C7-8BFC-41C8-A4AD-24D02B893655}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8948F8C7-8BFC-41C8-A4AD-24D02B893655}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B1B3504-46F5-4C8B-A104-E6112F0CFB0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B1B3504-46F5-4C8B-A104-E6112F0CFB0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B1B3504-46F5-4C8B-A104-E6112F0CFB0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B1B3504-46F5-4C8B-A104-E6112F0CFB0E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DD0D14D5-EF74-4C6D-8A31-776AA2E60418}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DD0D14D5-EF74-4C6D-8A31-776AA2E60418}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD0D14D5-EF74-4C6D-8A31-776AA2E60418}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -661,10 +667,10 @@ Global
 		{33495808-F28E-4328-A12B-8725477EC3E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33495808-F28E-4328-A12B-8725477EC3E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33495808-F28E-4328-A12B-8725477EC3E6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3B1B3504-46F5-4C8B-A104-E6112F0CFB0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3B1B3504-46F5-4C8B-A104-E6112F0CFB0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3B1B3504-46F5-4C8B-A104-E6112F0CFB0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3B1B3504-46F5-4C8B-A104-E6112F0CFB0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB69DFFE-FE05-4C28-BF32-FA8DF68C67CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB69DFFE-FE05-4C28-BF32-FA8DF68C67CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB69DFFE-FE05-4C28-BF32-FA8DF68C67CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB69DFFE-FE05-4C28-BF32-FA8DF68C67CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -776,6 +782,7 @@ Global
 		{0AFEC896-69D2-4A11-AABB-26B57591ABF3} = {078455F3-B124-4B06-8752-3DCC672CE5B6}
 		{F4444128-E9BF-4BD1-9B92-40BCA9F1BF87} = {078455F3-B124-4B06-8752-3DCC672CE5B6}
 		{33495808-F28E-4328-A12B-8725477EC3E6} = {078455F3-B124-4B06-8752-3DCC672CE5B6}
+		{DB69DFFE-FE05-4C28-BF32-FA8DF68C67CB} = {93E185D0-7DA1-4BFC-B9AC-CBE177AC570D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0A96E17D-AA6B-453C-BDE6-A74EEF471CE0}
