@@ -247,6 +247,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4SumII", "InterviewQuestion
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContainerWithMostWater", "InterviewQuestions\Array\ContainerWithMostWater\ContainerWithMostWater.csproj", "{0E59351B-4D20-4B78-AE5C-5EB34E5D220A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameOfLife", "InterviewQuestions\Array\GameOfLife\GameOfLife.csproj", "{59E4E6E8-C75D-4D69-BB7E-F07E5CFCD7EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -689,6 +691,10 @@ Global
 		{0E59351B-4D20-4B78-AE5C-5EB34E5D220A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E59351B-4D20-4B78-AE5C-5EB34E5D220A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E59351B-4D20-4B78-AE5C-5EB34E5D220A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59E4E6E8-C75D-4D69-BB7E-F07E5CFCD7EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59E4E6E8-C75D-4D69-BB7E-F07E5CFCD7EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59E4E6E8-C75D-4D69-BB7E-F07E5CFCD7EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59E4E6E8-C75D-4D69-BB7E-F07E5CFCD7EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -804,6 +810,7 @@ Global
 		{EA1F7E52-0612-41A3-9400-F2689784CAF4} = {93E185D0-7DA1-4BFC-B9AC-CBE177AC570D}
 		{1A2F4A4F-4674-46BD-A273-818ABA94D662} = {93E185D0-7DA1-4BFC-B9AC-CBE177AC570D}
 		{0E59351B-4D20-4B78-AE5C-5EB34E5D220A} = {93E185D0-7DA1-4BFC-B9AC-CBE177AC570D}
+		{59E4E6E8-C75D-4D69-BB7E-F07E5CFCD7EE} = {93E185D0-7DA1-4BFC-B9AC-CBE177AC570D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0A96E17D-AA6B-453C-BDE6-A74EEF471CE0}
