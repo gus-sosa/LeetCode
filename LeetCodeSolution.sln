@@ -253,6 +253,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeKSortedLists", "Interv
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SurroundedRegions", "InterviewQuestions\Trees\SurroundedRegions\SurroundedRegions.csproj", "{6D04055A-B0C1-4E20-A480-1D31CB2599F1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LowestCommonAncestorOfABinaryTree", "InterviewQuestions\Trees\LowestCommonAncestorOfABinaryTree\LowestCommonAncestorOfABinaryTree.csproj", "{EB25B16E-8F6B-4D08-A75F-97E04C2FC8E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -707,6 +709,10 @@ Global
 		{6D04055A-B0C1-4E20-A480-1D31CB2599F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D04055A-B0C1-4E20-A480-1D31CB2599F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D04055A-B0C1-4E20-A480-1D31CB2599F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB25B16E-8F6B-4D08-A75F-97E04C2FC8E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB25B16E-8F6B-4D08-A75F-97E04C2FC8E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB25B16E-8F6B-4D08-A75F-97E04C2FC8E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB25B16E-8F6B-4D08-A75F-97E04C2FC8E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -825,6 +831,7 @@ Global
 		{59E4E6E8-C75D-4D69-BB7E-F07E5CFCD7EE} = {93E185D0-7DA1-4BFC-B9AC-CBE177AC570D}
 		{A50BDCF0-8DDD-4EBB-889D-2A6D214428F1} = {FDD78610-8AD2-4384-9DA1-5D0074CA336F}
 		{6D04055A-B0C1-4E20-A480-1D31CB2599F1} = {EA06334F-7A9F-411D-8AA0-CF3268CD14E8}
+		{EB25B16E-8F6B-4D08-A75F-97E04C2FC8E3} = {EA06334F-7A9F-411D-8AA0-CF3268CD14E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0A96E17D-AA6B-453C-BDE6-A74EEF471CE0}
