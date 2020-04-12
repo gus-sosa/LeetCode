@@ -251,6 +251,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameOfLife", "InterviewQues
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeKSortedLists", "InterviewQuestions\LinkedList\MergeKSortedLists\MergeKSortedLists.csproj", "{A50BDCF0-8DDD-4EBB-889D-2A6D214428F1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SurroundedRegions", "InterviewQuestions\Trees\SurroundedRegions\SurroundedRegions.csproj", "{6D04055A-B0C1-4E20-A480-1D31CB2599F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -701,6 +703,10 @@ Global
 		{A50BDCF0-8DDD-4EBB-889D-2A6D214428F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A50BDCF0-8DDD-4EBB-889D-2A6D214428F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A50BDCF0-8DDD-4EBB-889D-2A6D214428F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D04055A-B0C1-4E20-A480-1D31CB2599F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D04055A-B0C1-4E20-A480-1D31CB2599F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D04055A-B0C1-4E20-A480-1D31CB2599F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D04055A-B0C1-4E20-A480-1D31CB2599F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -818,6 +824,7 @@ Global
 		{0E59351B-4D20-4B78-AE5C-5EB34E5D220A} = {93E185D0-7DA1-4BFC-B9AC-CBE177AC570D}
 		{59E4E6E8-C75D-4D69-BB7E-F07E5CFCD7EE} = {93E185D0-7DA1-4BFC-B9AC-CBE177AC570D}
 		{A50BDCF0-8DDD-4EBB-889D-2A6D214428F1} = {FDD78610-8AD2-4384-9DA1-5D0074CA336F}
+		{6D04055A-B0C1-4E20-A480-1D31CB2599F1} = {EA06334F-7A9F-411D-8AA0-CF3268CD14E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0A96E17D-AA6B-453C-BDE6-A74EEF471CE0}
