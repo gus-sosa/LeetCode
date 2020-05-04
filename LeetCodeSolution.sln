@@ -261,6 +261,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LongestConsecutiveSequence"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindTheDuplicateNumber", "InterviewQuestions\Array\FindTheDuplicateNumber\FindTheDuplicateNumber.csproj", "{DA38BCF9-7309-4295-8948-C9168E50E74B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicCalculatorII", "InterviewQuestions\Array\BasicCalculatorII\BasicCalculatorII.csproj", "{0301E946-A523-4917-94A4-D334226AE4EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -731,6 +733,10 @@ Global
 		{DA38BCF9-7309-4295-8948-C9168E50E74B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA38BCF9-7309-4295-8948-C9168E50E74B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA38BCF9-7309-4295-8948-C9168E50E74B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0301E946-A523-4917-94A4-D334226AE4EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0301E946-A523-4917-94A4-D334226AE4EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0301E946-A523-4917-94A4-D334226AE4EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0301E946-A523-4917-94A4-D334226AE4EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -853,6 +859,7 @@ Global
 		{D73FB4A4-5239-4F04-A734-C696E0162884} = {93E185D0-7DA1-4BFC-B9AC-CBE177AC570D}
 		{219C887E-4B49-4671-83C7-555EC8DD4DF5} = {93E185D0-7DA1-4BFC-B9AC-CBE177AC570D}
 		{DA38BCF9-7309-4295-8948-C9168E50E74B} = {93E185D0-7DA1-4BFC-B9AC-CBE177AC570D}
+		{0301E946-A523-4917-94A4-D334226AE4EA} = {93E185D0-7DA1-4BFC-B9AC-CBE177AC570D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0A96E17D-AA6B-453C-BDE6-A74EEF471CE0}
