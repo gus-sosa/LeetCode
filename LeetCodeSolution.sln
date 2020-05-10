@@ -279,6 +279,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShortestPathInAGridWithObst
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KthClosestPointsToOrigin", "KthClosestPointsToOrigin\KthClosestPointsToOrigin.csproj", "{F3592763-82B1-4AD6-9095-BBD65FD633DE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTreeMaximumPathSum", "InterviewQuestions\Trees\BinaryTreeMaximumPathSum\BinaryTreeMaximumPathSum.csproj", "{0179E438-7DEF-4632-98BA-B89CA4AF8015}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -785,6 +787,10 @@ Global
 		{F3592763-82B1-4AD6-9095-BBD65FD633DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3592763-82B1-4AD6-9095-BBD65FD633DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3592763-82B1-4AD6-9095-BBD65FD633DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0179E438-7DEF-4632-98BA-B89CA4AF8015}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0179E438-7DEF-4632-98BA-B89CA4AF8015}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0179E438-7DEF-4632-98BA-B89CA4AF8015}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0179E438-7DEF-4632-98BA-B89CA4AF8015}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -913,6 +919,7 @@ Global
 		{85F0E661-7EA1-45EF-B8E5-ACB64C7132FF} = {FDD78610-8AD2-4384-9DA1-5D0074CA336F}
 		{5C02F975-2DD6-4BB5-9BDF-12D6CA0256C5} = {FDD78610-8AD2-4384-9DA1-5D0074CA336F}
 		{07408C77-3D88-4B84-AF91-5354CF345FE1} = {EA06334F-7A9F-411D-8AA0-CF3268CD14E8}
+		{0179E438-7DEF-4632-98BA-B89CA4AF8015} = {EA06334F-7A9F-411D-8AA0-CF3268CD14E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0A96E17D-AA6B-453C-BDE6-A74EEF471CE0}
