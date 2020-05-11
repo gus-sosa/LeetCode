@@ -267,27 +267,29 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicCalculatorII", "Interv
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimumWindowsSubstring", "InterviewQuestions\Array\MinimumWindowsSubstring\MinimumWindowsSubstring.csproj", "{6E221365-7407-451A-9700-3E6E0382A443}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortList", "InterviewQuestions\LinkedList\SortList\SortList.csproj", "{85F0E661-7EA1-45EF-B8E5-ACB64C7132FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortList", "InterviewQuestions\LinkedList\SortList\SortList.csproj", "{85F0E661-7EA1-45EF-B8E5-ACB64C7132FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CopyListWithRandomPointer", "InterviewQuestions\LinkedList\CopyListWithRandomPointer\CopyListWithRandomPointer.csproj", "{5C02F975-2DD6-4BB5-9BDF-12D6CA0256C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CopyListWithRandomPointer", "InterviewQuestions\LinkedList\CopyListWithRandomPointer\CopyListWithRandomPointer.csproj", "{5C02F975-2DD6-4BB5-9BDF-12D6CA0256C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordLadder", "InterviewQuestions\Trees\WordLadder\WordLadder.csproj", "{07408C77-3D88-4B84-AF91-5354CF345FE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordLadder", "InterviewQuestions\Trees\WordLadder\WordLadder.csproj", "{07408C77-3D88-4B84-AF91-5354CF345FE1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimumRemoveToMakeValidParentheses", "MinimumRemoveToMakeValidParentheses\MinimumRemoveToMakeValidParentheses.csproj", "{4E7FCFCC-FCD2-4871-A840-E8DF941A6DDE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinimumRemoveToMakeValidParentheses", "MinimumRemoveToMakeValidParentheses\MinimumRemoveToMakeValidParentheses.csproj", "{4E7FCFCC-FCD2-4871-A840-E8DF941A6DDE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShortestPathInAGridWithObstaclesElimination", "ShortestPathInAGridWithObstaclesElimination\ShortestPathInAGridWithObstaclesElimination.csproj", "{5300FCBF-D60A-4778-BB85-17F0641A78C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShortestPathInAGridWithObstaclesElimination", "ShortestPathInAGridWithObstaclesElimination\ShortestPathInAGridWithObstaclesElimination.csproj", "{5300FCBF-D60A-4778-BB85-17F0641A78C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KthClosestPointsToOrigin", "KthClosestPointsToOrigin\KthClosestPointsToOrigin.csproj", "{F3592763-82B1-4AD6-9095-BBD65FD633DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KthClosestPointsToOrigin", "KthClosestPointsToOrigin\KthClosestPointsToOrigin.csproj", "{F3592763-82B1-4AD6-9095-BBD65FD633DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTreeMaximumPathSum", "InterviewQuestions\Trees\BinaryTreeMaximumPathSum\BinaryTreeMaximumPathSum.csproj", "{0179E438-7DEF-4632-98BA-B89CA4AF8015}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTreeMaximumPathSum", "InterviewQuestions\Trees\BinaryTreeMaximumPathSum\BinaryTreeMaximumPathSum.csproj", "{0179E438-7DEF-4632-98BA-B89CA4AF8015}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FriendCircles", "InterviewQuestions\Trees\FriendCircles\FriendCircles.csproj", "{2890BD93-5D02-4A15-A062-AC8A1E76D8AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FriendCircles", "InterviewQuestions\Trees\FriendCircles\FriendCircles.csproj", "{2890BD93-5D02-4A15-A062-AC8A1E76D8AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseSchedule", "InterviewQuestions\Trees\CourseSchedule\CourseSchedule.csproj", "{01C1F880-2282-490C-AE98-52D86873FF26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CourseSchedule", "InterviewQuestions\Trees\CourseSchedule\CourseSchedule.csproj", "{01C1F880-2282-490C-AE98-52D86873FF26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseScheduleII", "InterviewQuestions\Trees\CourseScheduleII\CourseScheduleII.csproj", "{5AC1E9A5-8BC9-4B2C-9963-E43F5B5C8365}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CourseScheduleII", "InterviewQuestions\Trees\CourseScheduleII\CourseScheduleII.csproj", "{5AC1E9A5-8BC9-4B2C-9963-E43F5B5C8365}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestIncreasingPathInAMatrix", "InterviewQuestions\Trees\LongestIncreasingPathInAMatrix\LongestIncreasingPathInAMatrix.csproj", "{16EFC2D1-8B66-4C1C-B05F-A1CCC34DA707}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LongestIncreasingPathInAMatrix", "InterviewQuestions\Trees\LongestIncreasingPathInAMatrix\LongestIncreasingPathInAMatrix.csproj", "{16EFC2D1-8B66-4C1C-B05F-A1CCC34DA707}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountOfSmallerNumbersAfterSelf", "InterviewQuestions\Trees\CountOfSmallerNumbersAfterSelf\CountOfSmallerNumbersAfterSelf.csproj", "{F450903D-4387-421F-A17E-5AA2FB560125}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -815,6 +817,10 @@ Global
 		{16EFC2D1-8B66-4C1C-B05F-A1CCC34DA707}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16EFC2D1-8B66-4C1C-B05F-A1CCC34DA707}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16EFC2D1-8B66-4C1C-B05F-A1CCC34DA707}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F450903D-4387-421F-A17E-5AA2FB560125}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F450903D-4387-421F-A17E-5AA2FB560125}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F450903D-4387-421F-A17E-5AA2FB560125}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F450903D-4387-421F-A17E-5AA2FB560125}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -948,6 +954,7 @@ Global
 		{01C1F880-2282-490C-AE98-52D86873FF26} = {EA06334F-7A9F-411D-8AA0-CF3268CD14E8}
 		{5AC1E9A5-8BC9-4B2C-9963-E43F5B5C8365} = {EA06334F-7A9F-411D-8AA0-CF3268CD14E8}
 		{16EFC2D1-8B66-4C1C-B05F-A1CCC34DA707} = {EA06334F-7A9F-411D-8AA0-CF3268CD14E8}
+		{F450903D-4387-421F-A17E-5AA2FB560125} = {EA06334F-7A9F-411D-8AA0-CF3268CD14E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0A96E17D-AA6B-453C-BDE6-A74EEF471CE0}
