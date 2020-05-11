@@ -285,6 +285,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FriendCircles", "InterviewQ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseSchedule", "InterviewQuestions\Trees\CourseSchedule\CourseSchedule.csproj", "{01C1F880-2282-490C-AE98-52D86873FF26}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseScheduleII", "InterviewQuestions\Trees\CourseScheduleII\CourseScheduleII.csproj", "{5AC1E9A5-8BC9-4B2C-9963-E43F5B5C8365}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -803,6 +805,10 @@ Global
 		{01C1F880-2282-490C-AE98-52D86873FF26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01C1F880-2282-490C-AE98-52D86873FF26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01C1F880-2282-490C-AE98-52D86873FF26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AC1E9A5-8BC9-4B2C-9963-E43F5B5C8365}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AC1E9A5-8BC9-4B2C-9963-E43F5B5C8365}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AC1E9A5-8BC9-4B2C-9963-E43F5B5C8365}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AC1E9A5-8BC9-4B2C-9963-E43F5B5C8365}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -934,6 +940,7 @@ Global
 		{0179E438-7DEF-4632-98BA-B89CA4AF8015} = {EA06334F-7A9F-411D-8AA0-CF3268CD14E8}
 		{2890BD93-5D02-4A15-A062-AC8A1E76D8AB} = {EA06334F-7A9F-411D-8AA0-CF3268CD14E8}
 		{01C1F880-2282-490C-AE98-52D86873FF26} = {EA06334F-7A9F-411D-8AA0-CF3268CD14E8}
+		{5AC1E9A5-8BC9-4B2C-9963-E43F5B5C8365} = {EA06334F-7A9F-411D-8AA0-CF3268CD14E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0A96E17D-AA6B-453C-BDE6-A74EEF471CE0}
