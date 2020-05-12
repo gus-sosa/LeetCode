@@ -3,21 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace PalindromePartitioning
-{
-  class Program
-  {
+namespace PalindromePartitioning {
+  class Program {
     static void Main(string[] args) {
       var s = new Solution();
-      var l = s.Partition("aab");
-      //Print(l);
-      l = s.Partition("abbab");
-      Print(l);
-      l = s.Partition("seeslaveidemonstrateyetartsnomedievalsees");
-      Print(l);
+      Print(s.Partition("abbab"));
+      Print(s.Partition("aab"));
+      Print(s.Partition("abbab"));
+      Print(s.Partition("seeslaveidemonstrateyetartsnomedievalsees"));
     }
 
     private static void Print(IList<IList<string>> l) {
+      Console.WriteLine("============result=================");
       foreach (var set in l) {
         Console.WriteLine("====set===");
         foreach (var item in set) {
@@ -30,52 +27,74 @@ namespace PalindromePartitioning
   #region MyRegion
 
 
-  public class Solution
-  {
-    private static Dictionary<string, bool> map;
-
+  public class Solution {
+    bool[,] palindromeMap;
+    int[] maxPalindromeInPos;
+    IList<IList<string>> retval;
+    List<int> currentPartition;
+    string s;
     public IList<IList<string>> Partition(string s) {
-      var l = new List<IList<string>>();
-      map = new Dictionary<string, bool>();
-      var currentParition = new List<StringBuilder>();
-      Partition(0, s, currentParition, l);
-      return l;
+      this.s = s;
+      palindromeMap = getPalidromeMap(s);
+      maxPalindromeInPos = computeMaxPalindromes();
+      retval = new List<IList<string>>();
+      currentPartition = new List<int>();
+      partition(0);
+      return retval;
     }
 
-    private void Partition(int pos, string s, List<StringBuilder> currentParition, List<IList<string>> partitions) {
-      if (pos == s.Length) {
-        foreach (var item in currentParition) {
-          if (!isPalindrome(item.ToString())) {
-            return;
-          }
-        }
-        partitions.Add(new List<string>(currentParition.Select(i => i.ToString())));
+    private void partition(int index) {
+      if (index == s.Length) {
+        currentPartition.Add(index);
+        addCurrentPartitionToRetval();
+        currentPartition.RemoveAt(currentPartition.Count - 1);
         return;
       }
-      currentParition.Add(new StringBuilder(s[pos].ToString())); ;
-      Partition(pos + 1, s, currentParition, partitions);
-      currentParition.RemoveAt(currentParition.Count - 1);
-      if (currentParition.Count > 0) {
-        currentParition[currentParition.Count - 1].Append(s[pos].ToString());
-        Partition(pos + 1, s, currentParition, partitions);
-        currentParition[currentParition.Count - 1].Remove(currentParition[currentParition.Count - 1].Length - 1, 1);
+
+      for (int i = index; i <= maxPalindromeInPos[index]; ++i) {
+        if (palindromeMap[index, i]) {
+          currentPartition.Add(index);
+          partition(i + 1);
+          currentPartition.RemoveAt(currentPartition.Count - 1);
+        }
       }
     }
 
-    private bool isPalindrome(string s) {
-      if (map.ContainsKey(s)) {
-        return map[s];
+    private void addCurrentPartitionToRetval() {
+      var list = new List<string>();
+      for (int i = 1, iStart, iEnd, l; i < currentPartition.Count; ++i) {
+        iStart = currentPartition[i - 1];
+        iEnd = currentPartition[i] - 1;
+        l = iEnd - iStart + 1;
+        list.Add(s.Substring(iStart, l));
       }
-      int iStart = 0, iEnd = s.Length - 1;
-      bool flag = true;
-      while (iStart <= iEnd && flag) {
-        if (s[iStart] != s[iEnd]) {
-          flag = false;
+      retval.Add(list);
+    }
+
+    private int[] computeMaxPalindromes() {
+      int[] maxs = new int[palindromeMap.GetLength(0)];
+      for (int i = 0; i < maxs.Length; ++i) {
+        for (int j = maxs.Length - 1; j >= i && maxs[i] == 0; --j) {
+          if (palindromeMap[i, j]) {
+            maxs[i] = j;
+          }
         }
-        ++iStart;
-        --iEnd;
       }
-      return map[s] = flag;
+      return maxs;
+    }
+
+    private bool[,] getPalidromeMap(string s) {
+      var palindromeMap = new bool[s.Length, s.Length];
+      for (int l = 1, j; l <= s.Length; ++l) {
+        for (int i = 0; i <= s.Length - l; ++i) {
+          j = i + l - 1;
+          palindromeMap[i, j] = s[i] == s[j];
+          if (i + 1 < j && palindromeMap[i, j]) {
+            palindromeMap[i, j] = palindromeMap[i + 1, j - 1];
+          }
+        }
+      }
+      return palindromeMap;
     }
   }
 
