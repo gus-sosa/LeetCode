@@ -295,7 +295,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromePartitioning", "I
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordSearchII", "InterviewQuestions\Backtracking\WordSearchII\WordSearchII.csproj", "{3256C36A-3133-486E-8050-4BE0394B6D61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveInvalidParentheses", "InterviewQuestions\Backtracking\RemoveInvalidParentheses\RemoveInvalidParentheses.csproj", "{FF00F9EF-CCD6-45F4-A434-C1B153968881}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoveInvalidParentheses", "InterviewQuestions\Backtracking\RemoveInvalidParentheses\RemoveInvalidParentheses.csproj", "{FF00F9EF-CCD6-45F4-A434-C1B153968881}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WildcardMatching", "InterviewQuestions\Backtracking\WildcardMatching\WildcardMatching.csproj", "{2F459898-D1BE-4B06-A32E-2F1E4F452731}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -839,6 +841,10 @@ Global
 		{FF00F9EF-CCD6-45F4-A434-C1B153968881}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF00F9EF-CCD6-45F4-A434-C1B153968881}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF00F9EF-CCD6-45F4-A434-C1B153968881}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F459898-D1BE-4B06-A32E-2F1E4F452731}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F459898-D1BE-4B06-A32E-2F1E4F452731}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F459898-D1BE-4B06-A32E-2F1E4F452731}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F459898-D1BE-4B06-A32E-2F1E4F452731}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -976,6 +982,7 @@ Global
 		{C9D20DC1-56A5-4BB7-A1C2-617564897558} = {13912DF8-9759-4BF9-BD35-DC97AFBAB42A}
 		{3256C36A-3133-486E-8050-4BE0394B6D61} = {13912DF8-9759-4BF9-BD35-DC97AFBAB42A}
 		{FF00F9EF-CCD6-45F4-A434-C1B153968881} = {13912DF8-9759-4BF9-BD35-DC97AFBAB42A}
+		{2F459898-D1BE-4B06-A32E-2F1E4F452731} = {13912DF8-9759-4BF9-BD35-DC97AFBAB42A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0A96E17D-AA6B-453C-BDE6-A74EEF471CE0}
