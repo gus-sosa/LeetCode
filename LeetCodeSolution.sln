@@ -307,6 +307,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlattenNestedListIterator",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KthSmallestElementInASortedMatrix", "InterviewQuestions\SortingAndSearching\KthSmallestElementInASortedMatrix\KthSmallestElementInASortedMatrix.csproj", "{7DDA4934-566F-4F5D-AEAA-A6B9D2F5A0D9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerfectSquares", "InterviewQuestions\DynamicProgramming\PerfectSquares\PerfectSquares.csproj", "{6508AF91-D204-486B-B0DC-E73D284896AC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -869,6 +871,10 @@ Global
 		{7DDA4934-566F-4F5D-AEAA-A6B9D2F5A0D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DDA4934-566F-4F5D-AEAA-A6B9D2F5A0D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7DDA4934-566F-4F5D-AEAA-A6B9D2F5A0D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6508AF91-D204-486B-B0DC-E73D284896AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6508AF91-D204-486B-B0DC-E73D284896AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6508AF91-D204-486B-B0DC-E73D284896AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6508AF91-D204-486B-B0DC-E73D284896AC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1011,6 +1017,7 @@ Global
 		{42710EBD-F5A1-4A7B-9B09-D35F4CDFA3D7} = {A368FB87-B7CD-42EE-8C5D-CB2EFF719F69}
 		{A12B9BDE-919B-45B1-BCAA-DF30DD7B48C6} = {A368FB87-B7CD-42EE-8C5D-CB2EFF719F69}
 		{7DDA4934-566F-4F5D-AEAA-A6B9D2F5A0D9} = {2B87C11B-BFB0-4382-8AD5-035BC8F86D49}
+		{6508AF91-D204-486B-B0DC-E73D284896AC} = {18831E01-D1BE-4B7E-9DDB-977C21EB310C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0A96E17D-AA6B-453C-BDE6-A74EEF471CE0}
