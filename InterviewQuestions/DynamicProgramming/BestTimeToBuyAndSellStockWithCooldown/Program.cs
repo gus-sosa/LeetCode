@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace BestTimeToBuyAndSellStockWithCooldown {
   class Program {
@@ -7,6 +8,8 @@ namespace BestTimeToBuyAndSellStockWithCooldown {
       Console.WriteLine(s.MaxProfit(new int[] { 1, 2, 3, 0, 2 }) == 3);
       Console.WriteLine(s.MaxProfit(new int[] { 1 }) == 0);
       Console.WriteLine(s.MaxProfit(new int[] { 2, 1 }) == 0);
+      Console.WriteLine(s.MaxProfit(new int[] { 1, 2 }) == 1);
+      Console.WriteLine(s.MaxProfit(new int[] { 2, 1, 4 }) == 3);
     }
 
 
@@ -14,25 +17,18 @@ namespace BestTimeToBuyAndSellStockWithCooldown {
 
 
     public class Solution {
-      private int[] prices;
-      private int[] dict;
-
       public int MaxProfit(int[] prices) {
-        if (prices.Length < 3) {
+        if (prices.Length < 2) {
           return 0;
         }
-        return Math.Max(ComputeProfit(prices, 0, true), ComputeProfit(prices, 0, false));
-      }
-
-      private int ComputeProfit(int[] prices, int pos, bool buy) {
-        if (pos >= prices.Length) {
-          return 0;
+        int has1_doNothing = -prices[0], has1_Sell = 0, has0_doNothing = 0, has0_buy = -prices[0];
+        for (int i = 1; i < prices.Length; ++i) {
+          has1_doNothing = Math.Max(has1_doNothing, has0_buy);
+          has0_buy = -prices[i] + has0_doNothing;
+          has0_doNothing = Math.Max(has0_doNothing, has1_Sell);
+          has1_Sell = prices[i] + has1_doNothing;
         }
-        if (buy) {
-          return ComputeProfit(prices, pos + 1, false) - prices[pos];
-        } else {
-          return ComputeProfit(prices, pos + 2, true) + prices[pos];
-        }
+        return Math.Max(has1_Sell, has0_doNothing);
       }
     }
 
