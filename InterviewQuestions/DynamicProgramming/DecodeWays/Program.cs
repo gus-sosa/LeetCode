@@ -11,6 +11,8 @@ namespace DecodeWays {
       Console.WriteLine(s.NumDecodings("0") == 0);
       Console.WriteLine(s.NumDecodings("10") == 1);
       Console.WriteLine(s.NumDecodings("20") == 1);
+      Console.WriteLine(s.NumDecodings("2611") == 4);
+      Console.WriteLine(s.NumDecodings("01") == 0);
     }
   }
 
@@ -18,29 +20,33 @@ namespace DecodeWays {
 
 
   public class Solution {
-    Dictionary<int, int> dict;
+    int[] dec;
     string s;
     public int NumDecodings(string s) {
-      dict = new Dictionary<int, int>();
-      this.s = s;
-      dict[s.Length] = 1;
+      dec = new int[s.Length + 1];
+      Array.Fill(dec, -1);
+      this.s = s + " ";
       return NumDecodings(0);
     }
 
     private int NumDecodings(int pos) {
-      if (dict.ContainsKey(pos)) {
-        return dict[pos];
+      if (pos >= s.Length - 1) {
+        return 1;
+      }
+      if (dec[pos] != -1) {
+        return dec[pos];
       }
 
-      if (s[pos] == '0') {
-        return 0;
+      int num = Convert.ToInt32(s[pos].ToString()), count = 0;
+      if (num > 0 && num < 27) {
+        count += NumDecodings(pos + 1);
+        num = Convert.ToInt32(s[pos].ToString() + s[pos + 1].ToString());
+        if (num > 0 && num < 27 && pos + 2 < s.Length) {
+          count += NumDecodings(pos + 2);
+        }
       }
 
-      int total = NumDecodings(pos + 1);
-      if (pos != s.Length - 1 && int.Parse(s.Substring(pos, 2)) < 27) {
-        total += NumDecodings(pos + 2);
-      }
-      return total;
+      return dec[pos] = count;
     }
   }
 
