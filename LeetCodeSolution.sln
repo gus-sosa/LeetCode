@@ -315,6 +315,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BestTimeToBuyAndSellStockWi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordBreak", "InterviewQuestions\DynamicProgramming\WordBreak\WordBreak.csproj", "{31F842CD-288E-4672-AC1D-8F0830F9B932}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordBreakII", "InterviewQuestions\DynamicProgramming\WordBreakII\WordBreakII.csproj", "{CB071DEC-92A5-450B-99C6-8B8296F0F156}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -893,6 +895,10 @@ Global
 		{31F842CD-288E-4672-AC1D-8F0830F9B932}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31F842CD-288E-4672-AC1D-8F0830F9B932}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31F842CD-288E-4672-AC1D-8F0830F9B932}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB071DEC-92A5-450B-99C6-8B8296F0F156}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB071DEC-92A5-450B-99C6-8B8296F0F156}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB071DEC-92A5-450B-99C6-8B8296F0F156}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB071DEC-92A5-450B-99C6-8B8296F0F156}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1039,6 +1045,7 @@ Global
 		{6508AF91-D204-486B-B0DC-E73D284896AC} = {18831E01-D1BE-4B7E-9DDB-977C21EB310C}
 		{43125DE5-8FDC-4451-B74F-8B49A2C6AC09} = {18831E01-D1BE-4B7E-9DDB-977C21EB310C}
 		{31F842CD-288E-4672-AC1D-8F0830F9B932} = {18831E01-D1BE-4B7E-9DDB-977C21EB310C}
+		{CB071DEC-92A5-450B-99C6-8B8296F0F156} = {18831E01-D1BE-4B7E-9DDB-977C21EB310C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0A96E17D-AA6B-453C-BDE6-A74EEF471CE0}
