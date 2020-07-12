@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 
 namespace WordBreakII {
@@ -19,14 +21,10 @@ namespace WordBreakII {
     #region MyRegion
 
 
-    #region MyRegion
-
-
     public class Solution {
       private TrieNode trie;
       private string s;
       private Dictionary<int, List<string>> dict;
-      private List<int> breakPoints;
 
       public class TrieNode {
         public bool IsEndWord { get; internal set; }
@@ -53,15 +51,22 @@ namespace WordBreakII {
             current = next;
           }
         }
+
+        public bool ContainsWord(string word) {
+          var current = this;
+          for (int i = 0; i < word.Length && current != null; ++i) {
+            current = current.GetChild(word[i]);
+          }
+          return current != null && current.IsEndWord;
+        }
       }
 
       public IList<string> WordBreak(string s, IList<string> wordDict) {
         this.trie = BuildTrie(wordDict);
-        dict = new Dictionary<int, List<string>>();
-        breakPoints = new List<int>();
         this.s = s;
+        dict = new Dictionary<int, List<string>>();
         WordBreak(0);
-        return dict[0];
+        return dict.ContainsKey(0) ? dict[0] : new List<string>();
       }
 
       private void WordBreak(int pos) {
@@ -69,35 +74,21 @@ namespace WordBreakII {
           return;
         }
 
-        dict[pos] = new List<string>();
-        TrieNode current = trie;
-        while (pos < s.Length && current != null) {
-          current = current.GetChild(s[pos]);
-          if (current != null && current.IsEndWord) {
-            breakPoints.Add(pos);
-            WordBreak(pos + 1);
-            if (dict[pos + 1].Count > 0) {
-              string prefix = buildPrefix();
-              foreach (var suffix in dict[pos + 1]) {
-                dict[pos].Add(string.Format("{0} {1}", prefix, suffix));
+        var result = new List<string>();
+        for (int i = pos; i < s.Length; ++i) {
+          var cad = s.Substring(pos, i - pos + 1);
+          if (trie.ContainsWord(cad)) {
+            if (i == s.Length - 1) {
+              result.Add(cad);
+            } else {
+              WordBreak(i + 1);
+              if (dict.ContainsKey(i + 1) && dict[i + 1].Count > 0) {
+                result.AddRange(dict[i + 1].Select(ii => string.Format("{0} {1}", cad, ii)));
               }
             }
-            breakPoints.RemoveAt(breakPoints.Count - 1);
           }
-          ++pos;
         }
-      }
-
-      private string buildPrefix() {
-        var sb = new StringBuilder();
-        int currentPos = 0;
-        foreach (var currentBreakPoint in breakPoints) {
-          while (currentPos <= currentBreakPoint) {
-            sb.Append(s[currentPos++]);
-          }
-          sb.Append(' ');
-        }
-        return sb.ToString();
+        dict[pos] = result;
       }
 
       public TrieNode BuildTrie(IEnumerable<string> words) {
@@ -112,7 +103,5 @@ namespace WordBreakII {
 
     #endregion
 
-
-    #endregion
   }
 }
