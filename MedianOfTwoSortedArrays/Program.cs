@@ -4,69 +4,32 @@ using System.Collections.Generic;
 namespace MedianOfTwoSortedArrays {
   class Program {
     public double FindMedianSortedArrays(int[] nums1, int[] nums2) {
-      int? tmp = null;
-      int mergeLength = nums1.Length + nums2.Length, median = 0;
-      tmp = FindMedianSortedArrays(nums1, nums2, mergeLength / 2);
-      if (tmp.HasValue) {
-        median = tmp.Value;
-      } else {
-        tmp = FindMedianSortedArrays(nums2, nums1, mergeLength / 2);
+      int m = nums1.Length;
+      int n = nums2.Length;
+      if (m > n) { // to ensure m<=n
+        int[] temp = nums1; nums1 = nums2; nums2 = temp;
+        int tmp = m; m = n; n = tmp;
       }
-      if (mergeLength % 2 == 0) {
-        tmp = FindMedianSortedArrays(nums1, nums2, mergeLength / 2 - 1);
-        return tmp.HasValue ?
-          ((tmp.Value + median) / 2.0) :
-          ((FindMedianSortedArrays(nums2, nums1, mergeLength / 2 - 1).Value + median) / 2.0);
-      }
-      return median;
-    }
+      int iMin = 0, iMnums1x = m, hnums1lfLen = (m + n + 1) / 2;
+      while (iMin <= iMnums1x) {
+        int i = (iMin + iMnums1x) / 2;
+        int j = hnums1lfLen - i;
+        if (i < iMnums1x && nums2[j - 1] > nums1[i]) {
+          iMin = i + 1; // i is too smnums1ll
+        } else if (i > iMin && nums1[i - 1] > nums2[j]) {
+          iMnums1x = i - 1; // i is too nums2ig
+        } else { // i is perfect
+          int maxLeft = 0;
+          if (i == 0) { maxLeft = nums2[j - 1]; } else if (j == 0) { maxLeft = nums1[i - 1]; } else { maxLeft = Math.Max(nums1[i - 1], nums2[j - 1]); }
+          if ((m + n) % 2 == 1) { return maxLeft; }
 
-    private int? FindMedianSortedArrays(int[] nums1, int[] nums2, int numElementsBefore) {
-      int start = 0, end = nums1.Length - 1, middle;
-      for (; end - start > 0; ++start) {
-        middle = (end - start) / 2;
-        var tmp = binarySearchCount(nums2, nums1[middle]);
-        if (!tmp.HasValue) {
-          return null;
-        }
-        (int element, int position) = tmp.Value;
-        int numElements = position + middle + 1;
-        if (numElementsBefore == numElements) {
-          return nums1[middle];
-        } else if (numElementsBefore < numElements) {
-          start = middle;
-        } else {
-          end = middle;
-        }
-      }
-      if (start == end) {
-        var tmp = binarySearchCount(nums2, nums1[start]);
-        if (tmp.HasValue) {
-          (int element, int position) = tmp.Value;
-          int numElements = position + start + 1;
-          if (numElementsBefore == numElements) {
-            return nums1[start];
-          }
-        }
-      }
-      return null;
-    }
+          int minRight = 0;
+          if (i == m) { minRight = nums2[j]; } else if (j == n) { minRight = nums1[i]; } else { minRight = Math.Min(nums2[j], nums1[i]); }
 
-    static (int element, int position)? binarySearchCount(int[] arr, int key) {
-      int n = arr.Length, left = 0, right = n - 1, count = -1;
-      while (left <= right) {
-        int mid = (right + left) / 2;
-        if (arr[mid] <= key) {
-          count = mid + 1;
-          left = mid + 1;
-        } else {
-          right = mid - 1;
+          return (maxLeft + minRight) / 2.0;
         }
       }
-      if (count >= 0) {
-        return (arr[count - 1], count - 1);
-      }
-      return null;
+      return 0.0;
     }
 
     static void Main(string[] args) {
