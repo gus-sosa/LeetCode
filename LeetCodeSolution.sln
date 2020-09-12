@@ -321,6 +321,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordBreakII", "InterviewQue
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindMedianFromDataStream", "InterviewQuestions\Design\FindMedianFromDataStream\FindMedianFromDataStream.csproj", "{90C03985-3342-4819-9FD4-F9882243A76C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WiggleSortII", "InterviewQuestions\SortingAndSearching\WiggleSortII\WiggleSortII.csproj", "{8BC97316-A78A-4556-AAF3-4C431BBA2BE4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -911,6 +913,10 @@ Global
 		{90C03985-3342-4819-9FD4-F9882243A76C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90C03985-3342-4819-9FD4-F9882243A76C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90C03985-3342-4819-9FD4-F9882243A76C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BC97316-A78A-4556-AAF3-4C431BBA2BE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BC97316-A78A-4556-AAF3-4C431BBA2BE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BC97316-A78A-4556-AAF3-4C431BBA2BE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BC97316-A78A-4556-AAF3-4C431BBA2BE4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1059,6 +1065,7 @@ Global
 		{31F842CD-288E-4672-AC1D-8F0830F9B932} = {18831E01-D1BE-4B7E-9DDB-977C21EB310C}
 		{CB071DEC-92A5-450B-99C6-8B8296F0F156} = {18831E01-D1BE-4B7E-9DDB-977C21EB310C}
 		{90C03985-3342-4819-9FD4-F9882243A76C} = {A368FB87-B7CD-42EE-8C5D-CB2EFF719F69}
+		{8BC97316-A78A-4556-AAF3-4C431BBA2BE4} = {2B87C11B-BFB0-4382-8AD5-035BC8F86D49}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0A96E17D-AA6B-453C-BDE6-A74EEF471CE0}
