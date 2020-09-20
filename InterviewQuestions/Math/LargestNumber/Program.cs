@@ -16,6 +16,9 @@ namespace LargestNumber {
       input = new int[] { 3, 30, 34, 5, 9 };
       Console.WriteLine(s.LargestNumber(input));
       Console.WriteLine(s.LargestNumber(input) == "9534330");
+
+      input = new int[] { 0, 0 };
+      Console.WriteLine(s.LargestNumber(input)=="0");
     }
 
     #region MyRegion
@@ -25,7 +28,8 @@ namespace LargestNumber {
       public string LargestNumber(int[] nums) {
         string[] strNumbs = nums.Select(i => Convert.ToString(i)).ToArray();
         Array.Sort(strNumbs, new NumSorter());
-        return strNumbs.Aggregate("", (acc, curr) => acc + curr);
+        var result = strNumbs.Aggregate("", (acc, curr) => acc + curr);
+        return result.Length > 1 && result[0] == '0' ? "0" : result;
       }
     }
 
