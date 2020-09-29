@@ -105,7 +105,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BestTimeToBuyAndSellStock",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrappingRainWater", "TrappingRainWater\TrappingRainWater.csproj", "{C5193654-63D8-49C3-8FBA-A0A6EB1D25C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedianOfTwoSortedArrays", "MedianOfTwoSortedArrays\MedianOfTwoSortedArrays.csproj", "{C2F3FABE-43E2-486C-BBEE-8D6A944AB1D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MedianOfTwoSortedArrays", "MedianOfTwoSortedArrays\MedianOfTwoSortedArrays.csproj", "{C2F3FABE-43E2-486C-BBEE-8D6A944AB1D5}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaximumSubarray", "InterviewQuestions\DynamicProgramming\MaximumSubarray\MaximumSubarray.csproj", "{89DDD646-7C09-4F09-982B-97E5C81D9590}"
 EndProject
@@ -293,37 +293,39 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LongestIncreasingPathInAMat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CountOfSmallerNumbersAfterSelf", "InterviewQuestions\Trees\CountOfSmallerNumbersAfterSelf\CountOfSmallerNumbersAfterSelf.csproj", "{F450903D-4387-421F-A17E-5AA2FB560125}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromePartitioning", "InterviewQuestions\Backtracking\PalindromePartitioning\PalindromePartitioning.csproj", "{C9D20DC1-56A5-4BB7-A1C2-617564897558}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PalindromePartitioning", "InterviewQuestions\Backtracking\PalindromePartitioning\PalindromePartitioning.csproj", "{C9D20DC1-56A5-4BB7-A1C2-617564897558}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordSearchII", "InterviewQuestions\Backtracking\WordSearchII\WordSearchII.csproj", "{3256C36A-3133-486E-8050-4BE0394B6D61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordSearchII", "InterviewQuestions\Backtracking\WordSearchII\WordSearchII.csproj", "{3256C36A-3133-486E-8050-4BE0394B6D61}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoveInvalidParentheses", "InterviewQuestions\Backtracking\RemoveInvalidParentheses\RemoveInvalidParentheses.csproj", "{FF00F9EF-CCD6-45F4-A434-C1B153968881}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WildcardMatching", "InterviewQuestions\Backtracking\WildcardMatching\WildcardMatching.csproj", "{2F459898-D1BE-4B06-A32E-2F1E4F452731}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaximumProductSubarray", "InterviewQuestions\DynamicProgramming\MaximumProductSubarray\MaximumProductSubarray.csproj", "{8E4893A5-E1D1-4EA4-8454-14EB15CA1484}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaximumProductSubarray", "InterviewQuestions\DynamicProgramming\MaximumProductSubarray\MaximumProductSubarray.csproj", "{8E4893A5-E1D1-4EA4-8454-14EB15CA1484}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecodeWays", "InterviewQuestions\DynamicProgramming\DecodeWays\DecodeWays.csproj", "{22E5EBCF-3646-4694-9945-14022AD5D0B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplementTrie", "InterviewQuestions\Design\ImplementTrie\ImplementTrie.csproj", "{42710EBD-F5A1-4A7B-9B09-D35F4CDFA3D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImplementTrie", "InterviewQuestions\Design\ImplementTrie\ImplementTrie.csproj", "{42710EBD-F5A1-4A7B-9B09-D35F4CDFA3D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlattenNestedListIterator", "InterviewQuestions\Design\FlattenNestedListIterator\FlattenNestedListIterator.csproj", "{A12B9BDE-919B-45B1-BCAA-DF30DD7B48C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlattenNestedListIterator", "InterviewQuestions\Design\FlattenNestedListIterator\FlattenNestedListIterator.csproj", "{A12B9BDE-919B-45B1-BCAA-DF30DD7B48C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KthSmallestElementInASortedMatrix", "InterviewQuestions\SortingAndSearching\KthSmallestElementInASortedMatrix\KthSmallestElementInASortedMatrix.csproj", "{7DDA4934-566F-4F5D-AEAA-A6B9D2F5A0D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KthSmallestElementInASortedMatrix", "InterviewQuestions\SortingAndSearching\KthSmallestElementInASortedMatrix\KthSmallestElementInASortedMatrix.csproj", "{7DDA4934-566F-4F5D-AEAA-A6B9D2F5A0D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerfectSquares", "InterviewQuestions\DynamicProgramming\PerfectSquares\PerfectSquares.csproj", "{6508AF91-D204-486B-B0DC-E73D284896AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PerfectSquares", "InterviewQuestions\DynamicProgramming\PerfectSquares\PerfectSquares.csproj", "{6508AF91-D204-486B-B0DC-E73D284896AC}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BestTimeToBuyAndSellStockWithCooldown", "InterviewQuestions\DynamicProgramming\BestTimeToBuyAndSellStockWithCooldown\BestTimeToBuyAndSellStockWithCooldown.csproj", "{43125DE5-8FDC-4451-B74F-8B49A2C6AC09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordBreak", "InterviewQuestions\DynamicProgramming\WordBreak\WordBreak.csproj", "{31F842CD-288E-4672-AC1D-8F0830F9B932}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordBreak", "InterviewQuestions\DynamicProgramming\WordBreak\WordBreak.csproj", "{31F842CD-288E-4672-AC1D-8F0830F9B932}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordBreakII", "InterviewQuestions\DynamicProgramming\WordBreakII\WordBreakII.csproj", "{CB071DEC-92A5-450B-99C6-8B8296F0F156}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordBreakII", "InterviewQuestions\DynamicProgramming\WordBreakII\WordBreakII.csproj", "{CB071DEC-92A5-450B-99C6-8B8296F0F156}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindMedianFromDataStream", "InterviewQuestions\Design\FindMedianFromDataStream\FindMedianFromDataStream.csproj", "{90C03985-3342-4819-9FD4-F9882243A76C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindMedianFromDataStream", "InterviewQuestions\Design\FindMedianFromDataStream\FindMedianFromDataStream.csproj", "{90C03985-3342-4819-9FD4-F9882243A76C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WiggleSortII", "InterviewQuestions\SortingAndSearching\WiggleSortII\WiggleSortII.csproj", "{8BC97316-A78A-4556-AAF3-4C431BBA2BE4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WiggleSortII", "InterviewQuestions\SortingAndSearching\WiggleSortII\WiggleSortII.csproj", "{8BC97316-A78A-4556-AAF3-4C431BBA2BE4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LargestNumber", "InterviewQuestions\Math\LargestNumber\LargestNumber.csproj", "{8F4BBAFA-E3EF-413D-8A77-756690DD2977}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LargestNumber", "InterviewQuestions\Math\LargestNumber\LargestNumber.csproj", "{8F4BBAFA-E3EF-413D-8A77-756690DD2977}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxPointsOnALine", "InterviewQuestions\Math\MaxPointsOnALine\MaxPointsOnALine.csproj", "{46BBADF6-3008-465A-AB34-74168DF55B11}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -923,6 +925,10 @@ Global
 		{8F4BBAFA-E3EF-413D-8A77-756690DD2977}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F4BBAFA-E3EF-413D-8A77-756690DD2977}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F4BBAFA-E3EF-413D-8A77-756690DD2977}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46BBADF6-3008-465A-AB34-74168DF55B11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46BBADF6-3008-465A-AB34-74168DF55B11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46BBADF6-3008-465A-AB34-74168DF55B11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46BBADF6-3008-465A-AB34-74168DF55B11}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1073,6 +1079,7 @@ Global
 		{90C03985-3342-4819-9FD4-F9882243A76C} = {A368FB87-B7CD-42EE-8C5D-CB2EFF719F69}
 		{8BC97316-A78A-4556-AAF3-4C431BBA2BE4} = {2B87C11B-BFB0-4382-8AD5-035BC8F86D49}
 		{8F4BBAFA-E3EF-413D-8A77-756690DD2977} = {078455F3-B124-4B06-8752-3DCC672CE5B6}
+		{46BBADF6-3008-465A-AB34-74168DF55B11} = {078455F3-B124-4B06-8752-3DCC672CE5B6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0A96E17D-AA6B-453C-BDE6-A74EEF471CE0}
