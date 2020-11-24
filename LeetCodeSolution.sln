@@ -331,6 +331,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegularExpressionMatching",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BurstBalloons", "InterviewQuestions\DynamicProgramming\BurstBalloons\BurstBalloons.csproj", "{7A7EDBA5-44C9-4342-96DC-7F328B52BC9C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BullsAndCows", "BullsAndCows\BullsAndCows.csproj", "{FB625442-7D35-4AD5-97CB-2142726F4A01}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -941,6 +943,10 @@ Global
 		{7A7EDBA5-44C9-4342-96DC-7F328B52BC9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A7EDBA5-44C9-4342-96DC-7F328B52BC9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A7EDBA5-44C9-4342-96DC-7F328B52BC9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB625442-7D35-4AD5-97CB-2142726F4A01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB625442-7D35-4AD5-97CB-2142726F4A01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB625442-7D35-4AD5-97CB-2142726F4A01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB625442-7D35-4AD5-97CB-2142726F4A01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
