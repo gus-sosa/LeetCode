@@ -329,9 +329,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaxPointsOnALine", "Intervi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegularExpressionMatching", "InterviewQuestions\Backtracking\RegularExpressionMatching\RegularExpressionMatching.csproj", "{282CF33F-7DFC-4FA8-A692-92C5869DE312}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BurstBalloons", "InterviewQuestions\DynamicProgramming\BurstBalloons\BurstBalloons.csproj", "{7A7EDBA5-44C9-4342-96DC-7F328B52BC9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BurstBalloons", "InterviewQuestions\DynamicProgramming\BurstBalloons\BurstBalloons.csproj", "{7A7EDBA5-44C9-4342-96DC-7F328B52BC9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BullsAndCows", "BullsAndCows\BullsAndCows.csproj", "{FB625442-7D35-4AD5-97CB-2142726F4A01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BullsAndCows", "BullsAndCows\BullsAndCows.csproj", "{FB625442-7D35-4AD5-97CB-2142726F4A01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LRUCache", "InterviewQuestions\Design\LRUCache\LRUCache.csproj", "{95AAFBDE-9E4F-4F54-9B98-CA3A44634E18}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -947,6 +949,10 @@ Global
 		{FB625442-7D35-4AD5-97CB-2142726F4A01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB625442-7D35-4AD5-97CB-2142726F4A01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB625442-7D35-4AD5-97CB-2142726F4A01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95AAFBDE-9E4F-4F54-9B98-CA3A44634E18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95AAFBDE-9E4F-4F54-9B98-CA3A44634E18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95AAFBDE-9E4F-4F54-9B98-CA3A44634E18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95AAFBDE-9E4F-4F54-9B98-CA3A44634E18}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1100,6 +1106,7 @@ Global
 		{46BBADF6-3008-465A-AB34-74168DF55B11} = {078455F3-B124-4B06-8752-3DCC672CE5B6}
 		{282CF33F-7DFC-4FA8-A692-92C5869DE312} = {13912DF8-9759-4BF9-BD35-DC97AFBAB42A}
 		{7A7EDBA5-44C9-4342-96DC-7F328B52BC9C} = {18831E01-D1BE-4B7E-9DDB-977C21EB310C}
+		{95AAFBDE-9E4F-4F54-9B98-CA3A44634E18} = {A368FB87-B7CD-42EE-8C5D-CB2EFF719F69}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0A96E17D-AA6B-453C-BDE6-A74EEF471CE0}
