@@ -333,6 +333,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BurstBalloons", "InterviewQ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BullsAndCows", "BullsAndCows\BullsAndCows.csproj", "{FB625442-7D35-4AD5-97CB-2142726F4A01}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwappingNodesInALinkedList", "SwappingNodesInALinkedList\SwappingNodesInALinkedList.csproj", "{05C5A466-8851-4192-84A6-6845169761D7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -947,6 +949,10 @@ Global
 		{FB625442-7D35-4AD5-97CB-2142726F4A01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB625442-7D35-4AD5-97CB-2142726F4A01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB625442-7D35-4AD5-97CB-2142726F4A01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05C5A466-8851-4192-84A6-6845169761D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05C5A466-8851-4192-84A6-6845169761D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05C5A466-8851-4192-84A6-6845169761D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05C5A466-8851-4192-84A6-6845169761D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
