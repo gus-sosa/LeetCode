@@ -23,9 +23,7 @@ type TreeNode struct {
 ///////////////////
 func getAllElements(root1 *TreeNode, root2 *TreeNode) []int {
 	list1 := getList(root1)
-	fmt.Println(list1)
 	list2 := getList(root2)
-	fmt.Println(list2)
 	return mergeSortedLists(list1, list2)
 }
 
