@@ -14,7 +14,7 @@ var set map[int]int
 
 func maxLevelSum(root *TreeNode) int {
 	set = make(map[int]int)
-	recur(root, 1)
+	dfs(root, 1)
 	bestLevel := -1
 	bestSum := 0
 	for key, value := range set {
@@ -35,7 +35,7 @@ func maxLevelSum(root *TreeNode) int {
 	return bestLevel
 }
 
-func recur(node *TreeNode, level int) {
+func dfs(node *TreeNode, level int) {
 	if node == nil {
 		return
 	}
@@ -43,6 +43,6 @@ func recur(node *TreeNode, level int) {
 		set[level] = 0
 	}
 	set[level] += node.Val
-	recur(node.Left, level+1)
-	recur(node.Right, level+1)
+	dfs(node.Left, level+1)
+	dfs(node.Right, level+1)
 }
