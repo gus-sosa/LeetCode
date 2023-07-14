@@ -8,6 +8,13 @@
             "type": "java",
             "name": "problem",
             "request": "launch",
+            "mainClass": "MaximumNumberOfJumpsToReachTheLastIndex.problem",
+            "projectName": "LeetCode_51db5bdf"
+        },
+        {
+            "type": "java",
+            "name": "problem",
+            "request": "launch",
             "mainClass": "AllNodesDistanceKInBinaryTree.problem",
             "projectName": "LeetCode_51db5bdf"
         },
